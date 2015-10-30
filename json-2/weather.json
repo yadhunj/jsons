@@ -1,0 +1,26 @@
+{
+  "latitude" : 37.8267,
+  "longitude" : -122.423,
+  "timezone" : "America/Los_Angeles", 
+  "offset" : -7
+  "currently":
+  { 
+    "time":1445363891, 
+    "summary":"Clear",
+    "icon":"clear-day",
+    "nearestStormDistance":337,
+    "nearestStormBearing":129,
+    "precipIntensity":0,
+    "precipProbability":0,
+    "temperature":66,
+    "apparentTemperature":66,
+    "dewPoint":54.96,
+    "humidity":0.68,
+    "windSpeed":1.44,
+    "windBearing":335,
+    "visibility":9.49,
+    "cloudCover":0.14,
+    "pressure":1015.47,
+    "ozone":286.12
+  }
+}
