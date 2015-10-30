@@ -1,3 +1,7 @@
+// This program parses a json file that has information about the weather
+// conditions of a place and saves them in data structures and prints them
+// using the print methods.
+
 import java.io.FileReader;
 import java.util.Iterator;
 import java.util.ArrayList;
