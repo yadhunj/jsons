@@ -22,7 +22,7 @@ public class Weather
 
     try 
     {                                                       
-      FileReader file = new FileReader("/home/yadhunj/json-3/tw.json");                                                                                 
+      FileReader file = new FileReader("/home/yadhunj/jsons/json-3/tw.json");                                                                                 
       JSONObject jObj = (JSONObject) parser.parse(file);
       
       // Get location information  
@@ -38,13 +38,14 @@ public class Weather
  
       // Get hourly weather condition
       JSONObject hourly = (JSONObject) jObj.get("hourly");
-      readHourlyData(hourly);
-      Weather wr = new Weather();
-      System.out.println(wr.hourlist);
-     // printHourlyData(hourlist);      
+      ArrayList hpt;
+      hpt =  readHourlyData(hourly);
+      printHourlyData(hpt);
       // Get daily weather condition
       JSONObject daily = (JSONObject) jObj.get("daily");
-      readDailyData(daily);
+      ArrayList dpt;
+      dpt = readDailyData(daily);
+      printDailyData(dpt);
     }
     catch (Exception e)
     {
@@ -55,63 +56,50 @@ public class Weather
   public static ArrayList readHourlyData(JSONObject jObject)
   {   
     ArrayList hourlist = new ArrayList();  
-    try
+    JSONArray hourlydata = (JSONArray) jObject.get("data");
+    Iterator i = hourlydata.iterator();
+    while (i.hasNext())
     {
-      JSONArray hourlydata = (JSONArray) jObject.get("data");
-    //  ArrayList hourlist = new ArrayList();
-      Iterator i = hourlydata.iterator();
-      while (i.hasNext())
-      {
-        JSONObject jObjt = (JSONObject) i.next();
-        HourlyDataPoints hPoints = new HourlyDataPoints();
-        hPoints.read(jObjt);
-        hourlist.add(hPoints);
-//        hPoints.print();
-      } 
-    }
-    catch (Exception e)
-    {
-      e.printStackTrace();
-    }
+      JSONObject jObjt = (JSONObject) i.next();
+      HourlyDataPoints hPoints = new HourlyDataPoints();
+      hPoints.read(jObjt);
+      hourlist.add(hPoints);
+    } 
     return hourlist;
   }
    
-/*  public static void printHourlyData(ArrayList hourlist)
+  public static void printHourlyData(ArrayList hpt)
   {
-    try
+    for(int k = 0; k < hpt.size(); k++)
     {
-    //  JSONObject pData = (JSONObject) hourlist.get("hourlist");
-      HourlyDataPoints HPoint = new HourlyDataPoints();
-    //  HPoint.read(pData);
-      HPoint.print();
+      HourlyDataPoints hPoints;
+      hPoints = (HourlyDataPoints) hpt.get(k);
+      hPoints.print();
     }
-    catch (Exception e)
-    {
-      e.printStackTrace();
-    }
-  }*/
+  }
   
   public static ArrayList readDailyData(JSONObject jObj)
   {
     ArrayList dailylist = new ArrayList();
-    try
+    JSONArray dailydata = (JSONArray) jObj.get("data");
+    Iterator j = dailydata.iterator();
+    while (j.hasNext())
     {
-      JSONArray dailydata = (JSONArray) jObj.get("data");
-    //  ArrayList dailylist = new ArrayList();
-      Iterator j = dailydata.iterator();
-      while (j.hasNext())
-      {
-        JSONObject jObjt = (JSONObject) j.next();
-        DailyDataPoints dDPoints = new DailyDataPoints();
-        dDPoints.read(jObjt);
-        dailylist.add(dDPoints);
-//        dDPoints.print();
-      }
-    }
-    catch (Exception e)
-    {
-      e.printStackTrace();
+      JSONObject jObjt = (JSONObject) j.next();
+      DailyDataPoints dDPoints = new DailyDataPoints();
+      dDPoints.read(jObjt);
+      dailylist.add(dDPoints);
     }
     return dailylist;
   } 
+ 
+  public static void printDailyData(ArrayList dpt)
+  {
+    for(int l = 0; l < dpt.size(); l++)
+    {
+      DailyDataPoints dPoints;
+      dPoints = (DailyDataPoints) dpt.get(l);
+      dPoints.print();
+    }
+  }
 }
