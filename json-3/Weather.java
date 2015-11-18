@@ -25,35 +25,56 @@ public class Weather
       FileReader file = new FileReader("/home/yadhunj/jsons/json-3/tw.json");                                                                                 
       JSONObject jObj = (JSONObject) parser.parse(file);
       
-      // Get location information  
-      LocationInfo locinf =new LocationInfo();
-      locinf.read(jObj);
-      locinf.print();
+      // Get location information
+      processLocation(jObj);
 
       // Get current weather condition
-      JSONObject currently = (JSONObject) jObj.get("currently");
-      DataPoints dPoints = new DataPoints();
-      dPoints.read(currently);
-      dPoints.print();
+      processCurrently(jObj);
  
       // Get hourly weather condition
-      JSONObject hourly = (JSONObject) jObj.get("hourly");
-      ArrayList hpt;
-      hpt =  readHourlyData(hourly);
-      printHourlyData(hpt);
+      processHourly(jObj);
+    
       // Get daily weather condition
-      JSONObject daily = (JSONObject) jObj.get("daily");
-      ArrayList dpt;
-      dpt = readDailyData(daily);
-      printDailyData(dpt);
+      processDaily(jObj);   
     }
     catch (Exception e)
     {
       e.printStackTrace();
     }      
   }
+ 
+  static void processLocation(JSONObject jObjt)
+  {
+    LocationInfo locinf =new LocationInfo();
+    locinf.read(jObjt);
+    locinf.print(); 
+  }
 
-  public static ArrayList readHourlyData(JSONObject jObject)
+  static void processCurrently(JSONObject jObjt)
+  {
+    JSONObject currently = (JSONObject) jObjt.get("currently");
+    DataPoints dPoints = new DataPoints();
+    dPoints.read(currently);
+    dPoints.print();
+  }
+  
+  static void processHourly(JSONObject jObjt)
+  {
+    JSONObject hourly = (JSONObject) jObjt.get("hourly");
+    ArrayList hpt;
+    hpt =  readHourlyData(hourly);
+    printHourlyData(hpt);
+  }
+
+  static void processDaily(JSONObject jObjt)
+  {
+    JSONObject daily = (JSONObject) jObjt.get("daily");
+    ArrayList dpt;
+    dpt = readDailyData(daily);
+    printDailyData(dpt);
+  }
+
+  static ArrayList readHourlyData(JSONObject jObject)
   {   
     ArrayList hourlist = new ArrayList();  
     JSONArray hourlydata = (JSONArray) jObject.get("data");
@@ -68,7 +89,7 @@ public class Weather
     return hourlist;
   }
    
-  public static void printHourlyData(ArrayList hpt)
+  static void printHourlyData(ArrayList hpt)
   {
     for(int k = 0; k < hpt.size(); k++)
     {
@@ -78,7 +99,7 @@ public class Weather
     }
   }
   
-  public static ArrayList readDailyData(JSONObject jObj)
+  static ArrayList readDailyData(JSONObject jObj)
   {
     ArrayList dailylist = new ArrayList();
     JSONArray dailydata = (JSONArray) jObj.get("data");
@@ -93,7 +114,7 @@ public class Weather
     return dailylist;
   } 
  
-  public static void printDailyData(ArrayList dpt)
+  static void printDailyData(ArrayList dpt)
   {
     for(int l = 0; l < dpt.size(); l++)
     {
