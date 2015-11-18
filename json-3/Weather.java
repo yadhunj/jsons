@@ -18,31 +18,45 @@ public class Weather
 { 
   public static void main(String[] args) 
   {
-    JSONParser parser = new JSONParser();
-
     try 
-    {                                                       
-      FileReader file = new FileReader("/home/yadhunj/jsons/json-3/tw.json");                                                                                 
-      JSONObject jObj = (JSONObject) parser.parse(file);
+    {
+      String fPath = "/home/yadhunj/jsons/json-3/tw.json";
+      JSONObject jot = fileInitialize(fPath);
       
       // Get location information
-      processLocation(jObj);
+      processLocation(jot);
 
       // Get current weather condition
-      processCurrently(jObj);
+      processCurrently(jot);
  
       // Get hourly weather condition
-      processHourly(jObj);
+      processHourly(jot);
     
       // Get daily weather condition
-      processDaily(jObj);   
+      processDaily(jot);   
     }
     catch (Exception e)
     {
       e.printStackTrace();
     }      
   }
- 
+
+  static JSONObject fileInitialize(String path)
+  {
+    JSONObject jObj = new JSONObject();
+    try
+    {
+      JSONParser parser = new JSONParser();
+      FileReader file = new FileReader(path);
+      jObj = (JSONObject) parser.parse(file); 
+    }
+    catch (Exception e)
+    {
+      e.printStackTrace();
+    }
+    return jObj;
+  }
+
   static void processLocation(JSONObject jObjt)
   {
     LocationInfo locinf =new LocationInfo();
