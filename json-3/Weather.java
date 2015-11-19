@@ -33,7 +33,16 @@ public class Weather
       processHourly(jot);
     
       // Get daily weather condition
-      processDaily(jot);   
+      processDaily(jot);
+
+      // Get Currently Summary
+      SummaryCurrently(jot);   
+  
+      // Get Hourly Summary
+      SummaryHourly(jot);
+  
+      // Get Daily Summary
+      SummaryDaily(jot);
     }
     catch (Exception e)
     {
@@ -135,6 +144,52 @@ public class Weather
       DailyDataPoints dPoints;
       dPoints = (DailyDataPoints) dpt.get(l);
       dPoints.print();
+    }
+  }
+
+  static void SummaryCurrently(JSONObject jObjt)
+  {
+    JSONObject currently = (JSONObject) jObjt.get("currently");
+    CurrentlySummary cSummary = new CurrentlySummary();
+    cSummary.read(currently);
+    cSummary.print();
+  }
+
+  static void SummaryHourly(JSONObject jObjt)
+  {
+    JSONObject hourly = (JSONObject) jObjt.get("hourly");
+    HourlyDataSummary(hourly);
+  }
+
+  static void HourlyDataSummary(JSONObject jObject)
+  {
+    JSONArray hourlydata = (JSONArray) jObject.get("data");
+    Iterator i = hourlydata.iterator();
+    while (i.hasNext())
+    {
+      JSONObject jObjt = (JSONObject) i.next();
+      HourlySummary hSummary = new HourlySummary();
+      hSummary.read(jObjt);
+      hSummary.print();
+    }
+  }
+  
+  static void SummaryDaily(JSONObject jObjt)
+  {
+    JSONObject daily = (JSONObject) jObjt.get("daily");
+    DailyDataSummary(daily);
+  }
+
+  static void DailyDataSummary(JSONObject jObject)
+  {
+    JSONArray Dailydata = (JSONArray) jObject.get("data");
+    Iterator i = Dailydata.iterator();
+    while (i.hasNext())
+    {
+      JSONObject jObjt = (JSONObject) i.next();
+      DailySummary dSummary = new DailySummary();
+      dSummary.read(jObjt);
+      dSummary.print();
     }
   }
 }
