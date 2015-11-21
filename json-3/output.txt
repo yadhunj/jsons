@@ -1,61 +1,47 @@
 CURRENTLY SUMMARY:
-Time: 2015-10-21 17:39, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.23, Apparent Temperature: 78.23, Pressure: 1011.61
+1) Time: 2015-10-21 17:39
+   Summary: Partly Cloudy
+   Temperature: 78.23
+   Apparent Temperature: 78.23
+
 HOURLY SUMMARY:
-Time: 2015-10-21 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.33, Apparent Temperature: 78.33, Pressure: 1011.63
-Time: 2015-10-21 18:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.69, Apparent Temperature: 77.69, Pressure: 1011.56
-Time: 2015-10-21 19:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.06, Apparent Temperature: 77.06, Pressure: 1011.1
-Time: 2015-10-21 20:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.33, Apparent Temperature: 76.33, Pressure: 1010.65
-Time: 2015-10-21 21:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 75.26, Apparent Temperature: 75.26, Pressure: 1010.5
-Time: 2015-10-21 22:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.98, Apparent Temperature: 73.98, Pressure: 1010.58
-Time: 2015-10-21 23:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.3, Apparent Temperature: 73.3, Pressure: 1010.82
-Time: 2015-10-22 00:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 74.94, Apparent Temperature: 74.94, Pressure: 1011.22
-Time: 2015-10-22 01:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 77.86, Apparent Temperature: 77.86, Pressure: 1011.86
-Time: 2015-10-22 02:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 81.04, Apparent Temperature: 85.22, Pressure: 1012.44
-Time: 2015-10-22 03:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 83.87, Apparent Temperature: 88.93, Pressure: 1012.67
-Time: 2015-10-22 04:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 86.81, Apparent Temperature: 91.57, Pressure: 1012.64
-Time: 2015-10-22 05:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 89.77, Apparent Temperature: 93.75, Pressure: 1012.36
-Time: 2015-10-22 06:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 92.47, Apparent Temperature: 96.22, Pressure: 1011.74
-Time: 2015-10-22 07:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.06, Apparent Temperature: 99.23, Pressure: 1010.57
-Time: 2015-10-22 08:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 96.72, Apparent Temperature: 101.43, Pressure: 1009.44
-Time: 2015-10-22 09:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.98, Apparent Temperature: 100.32, Pressure: 1008.82
-Time: 2015-10-22 10:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 93.83, Apparent Temperature: 97.85, Pressure: 1008.61
-Time: 2015-10-22 11:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 91.03, Apparent Temperature: 94.8, Pressure: 1008.73
-Time: 2015-10-22 12:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 88.22, Apparent Temperature: 91.86, Pressure: 1009.19
-Time: 2015-10-22 13:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 85.03, Apparent Temperature: 88.58, Pressure: 1010.09
-Time: 2015-10-22 14:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 82.12, Apparent Temperature: 85.4, Pressure: 1011.04
-Time: 2015-10-22 15:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 80.22, Apparent Temperature: 83.15, Pressure: 1011.7
-Time: 2015-10-22 16:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 79.25, Apparent Temperature: 79.25, Pressure: 1012.15
-Time: 2015-10-22 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.63, Apparent Temperature: 78.63, Pressure: 1012.42
-Time: 2015-10-22 18:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.9, Apparent Temperature: 77.9, Pressure: 1012.35
-Time: 2015-10-22 19:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.05, Apparent Temperature: 77.05, Pressure: 1011.89
-Time: 2015-10-22 20:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.13, Apparent Temperature: 76.13, Pressure: 1011.31
-Time: 2015-10-22 21:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 75.13, Apparent Temperature: 75.13, Pressure: 1010.95
-Time: 2015-10-22 22:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.97, Apparent Temperature: 73.97, Pressure: 1010.7
-Time: 2015-10-22 23:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.34, Apparent Temperature: 73.34, Pressure: 1010.64
-Time: 2015-10-23 00:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 74.74, Apparent Temperature: 74.74, Pressure: 1010.96
-Time: 2015-10-23 01:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 77.3, Apparent Temperature: 77.3, Pressure: 1011.71
-Time: 2015-10-23 02:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 80.18, Apparent Temperature: 83.01, Pressure: 1012.41
-Time: 2015-10-23 03:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 82.97, Apparent Temperature: 86.07, Pressure: 1012.63
-Time: 2015-10-23 04:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 86.08, Apparent Temperature: 88.53, Pressure: 1012.45
-Time: 2015-10-23 05:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 89.25, Apparent Temperature: 90.64, Pressure: 1012.45
-Time: 2015-10-23 06:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 92.03, Apparent Temperature: 92.82, Pressure: 1011.33
-Time: 2015-10-23 07:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 94.6, Apparent Temperature: 95.2, Pressure: 1010.24
-Time: 2015-10-23 08:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 96.18, Apparent Temperature: 96.79, Pressure: 1009.23
-Time: 2015-10-23 09:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.38, Apparent Temperature: 95.8, Pressure: 1008.7
-Time: 2015-10-23 10:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 93.16, Apparent Temperature: 93.67, Pressure: 1008.6
-Time: 2015-10-23 11:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 90.28, Apparent Temperature: 91.14, Pressure: 1008.85
-Time: 2015-10-23 12:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 87.31, Apparent Temperature: 88.84, Pressure: 1009.36
-Time: 2015-10-23 13:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 83.89, Apparent Temperature: 86.3, Pressure: 1010.26
-Time: 2015-10-23 14:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 80.73, Apparent Temperature: 83.42, Pressure: 1011.2
-Time: 2015-10-23 15:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.57, Apparent Temperature: 78.57, Pressure: 1011.81
-Time: 2015-10-23 16:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.3, Apparent Temperature: 77.3, Pressure: 1012.12
-Time: 2015-10-23 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.39, Apparent Temperature: 76.39, Pressure: 1012.19
+1) Time: 2015-10-21 18:30
+   Summary: Partly Cloudy
+   Temperature: 77.69
+   Apparent Temperature: 77.69
+
+2) Time: 2015-10-21 19:30
+   Summary: Partly Cloudy
+   Temperature: 77.06
+   Apparent Temperature: 77.06
+
+3) Time: 2015-10-21 20:30
+   Summary: Partly Cloudy
+   Temperature: 76.33
+   Apparent Temperature: 76.33
+
+4) Time: 2015-10-21 21:30
+   Summary: Partly Cloudy
+   Temperature: 75.26
+   Apparent Temperature: 75.26
+
+5) Time: 2015-10-21 22:30
+   Summary: Partly Cloudy
+   Temperature: 73.98
+   Apparent Temperature: 73.98
+
 DAILY SUMMARY:
-Time: 2015-10-20 18:30, Summary: Partly cloudy until afternoon., Icon: partly-cloudy-day, Temperature Max: 91.09, Temperature Min: 77.3, PrecipType: rain, Apparent TemperatureMax: 94.8, Apparent TemperatureMin: 77.3, Pressure: 1010.4
-Time: 2015-10-21 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.72, Temperature Min: 73.3, PrecipType: rain, Apparent TemperatureMax: 101.43, Apparent TemperatureMin: 73.3, Pressure: 1010.95
-Time: 2015-10-22 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.18, Temperature Min: 73.34, PrecipType: rain, Apparent TemperatureMax: 96.79, Apparent TemperatureMin: 73.34, Pressure: 1011.0
-Time: 2015-10-23 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.95, Temperature Min: 71.43, PrecipType: rain, Apparent TemperatureMax: 99.55, Apparent TemperatureMin: 71.43, Pressure: 1011.11
-Time: 2015-10-24 18:30, Summary: Overcast throughout the day., Icon: cloudy, Temperature Max: 90.83, Temperature Min: 74.46, PrecipType: rain, Apparent TemperatureMax: 95.25, Apparent TemperatureMin: 74.46, Pressure: 1011.32
-Time: 2015-10-25 18:30, Summary: Mostly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 91.15, Temperature Min: 73.69, PrecipType: rain, Apparent TemperatureMax: 94.36, Apparent TemperatureMin: 73.69, Pressure: 1011.3
-Time: 2015-10-26 18:30, Summary: Overcast throughout the day., Icon: cloudy, Temperature Max: 90.11, Temperature Min: 73.43, PrecipType: rain, Apparent TemperatureMax: 93.41, Apparent TemperatureMin: 73.43, Pressure: 1010.39
-Time: 2015-10-27 18:30, Summary: Light rain starting in the afternoon, continuing until evening., Icon: rain, Temperature Max: 93.12, Temperature Min: 74.99, PrecipType: rain, Apparent TemperatureMax: 98.44, Apparent TemperatureMin: 74.99, Pressure: 1009.07
+1) Time: 2015-10-21 18:30
+   Summary: Partly cloudy throughout the day.
+   Temperature Max: 96.72
+   Temperature Min: 73.3
+   Apparent TemperatureMax: 101.43
+   Apparent TemperatureMin: 73.3
+
+2) Time: 2015-10-22 18:30
+   Summary: Partly cloudy throughout the day.
+   Temperature Max: 96.18
+   Temperature Min: 73.34
+   Apparent TemperatureMax: 96.79
+   Apparent TemperatureMin: 73.34
+

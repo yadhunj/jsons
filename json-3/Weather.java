@@ -159,12 +159,15 @@ public class Weather
   static void SummaryHourly(JSONObject jObjt)
   {
     JSONObject hourly = (JSONObject) jObjt.get("hourly");
-    HourlyDataSummary(hourly);
+    ArrayList sHour;
+    sHour =  HourlyDataSummary(hourly);
+    printhSum(sHour);
   }
-
-  static void HourlyDataSummary(JSONObject jObject)
+  
+  static ArrayList HourlyDataSummary(JSONObject jObject)
   {
-    System.out.println("HOURLY SUMMARY:");
+    System.out.println("\nHOURLY SUMMARY:");
+    ArrayList hSum = new ArrayList();
     JSONArray hourlydata = (JSONArray) jObject.get("data");
     Iterator i = hourlydata.iterator();
     while (i.hasNext())
@@ -172,19 +175,33 @@ public class Weather
       JSONObject jObjt = (JSONObject) i.next();
       HourlySummary hSummary = new HourlySummary();
       hSummary.read(jObjt);
-      hSummary.print();
+      hSum.add(hSummary);
+    }
+    return hSum;
+  }
+   
+  static void printhSum(ArrayList hSumm)
+  {
+    for(int i = 1; (i < hSumm.size()) && (i <= 5); i++)
+    {
+      System.out.print(i + ") ");
+      HourlySummary hDSum;
+      hDSum = (HourlySummary) hSumm.get(i);
+      hDSum.print();
     }
   }
-  
   static void SummaryDaily(JSONObject jObjt)
   {
     JSONObject daily = (JSONObject) jObjt.get("daily");
-    DailyDataSummary(daily);
+    ArrayList sDaily; 
+    sDaily =  DailyDataSummary(daily);
+    printdSum(sDaily);
   }
 
-  static void DailyDataSummary(JSONObject jObject)
+  static ArrayList DailyDataSummary(JSONObject jObject)
   {
     System.out.println("DAILY SUMMARY:");
+    ArrayList dSum = new ArrayList();
     JSONArray Dailydata = (JSONArray) jObject.get("data");
     Iterator i = Dailydata.iterator();
     while (i.hasNext())
@@ -192,7 +209,19 @@ public class Weather
       JSONObject jObjt = (JSONObject) i.next();
       DailySummary dSummary = new DailySummary();
       dSummary.read(jObjt);
-      dSummary.print();
+      dSum.add(dSummary);
+    }
+    return dSum;
+  }
+  
+  static void printdSum(ArrayList dSumm)
+  {
+    for(int i = 1; (i < dSumm.size()) && (i <= 2); i++)
+    {
+      System.out.print(i + ") ");
+      DailySummary dDSum;
+      dDSum = (DailySummary) dSumm.get(i);
+      dDSum.print();
     }
   }
 }

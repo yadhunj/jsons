@@ -12,13 +12,10 @@ public class DailySummary
 {
   long time;
   String summary;
-  String icon;
   Double temperatureMax;
   Double temperatureMin;
-  String precipType;
   Double apparentTemperatureMax;
   Double apparentTemperatureMin;
-  Double pressure;
 
   public void read(JSONObject jsonObject)
   {
@@ -26,13 +23,10 @@ public class DailySummary
     {
       time = (long) jsonObject.get("time");
       summary = (String) jsonObject.get("summary");
-      icon = (String) jsonObject.get("icon");
       temperatureMax = (Double) jsonObject.get("temperatureMax");
       temperatureMin = (Double) jsonObject.get("temperatureMin");
-      precipType = (String) jsonObject.get("precipType");
       apparentTemperatureMax = (Double) jsonObject.get("apparentTemperatureMax");
       apparentTemperatureMin = (Double) jsonObject.get("apparentTemperatureMin");
-      pressure = (Double) jsonObject.get("pressure");
     }
     catch (Exception e)
     {
@@ -46,22 +40,16 @@ public class DailySummary
     SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm");
     sd.setTimeZone(TimeZone.getTimeZone("GMT"));
     String ourtime = sd.format(date);
-    System.out.print("Time: " + ourtime + ", ");
+    System.out.println("Time: " + ourtime);
    
-    System.out.print("Summary: " + summary + ", ");
+    System.out.println("   Summary: " + summary);
    
-    System.out.print("Icon: " + icon + ", ");
-   
-    System.out.print("Temperature Max: " + temperatureMax + ", ");
+    System.out.println("   Temperature Max: " + temperatureMax);
     
-    System.out.print("Temperature Min: " + temperatureMin + ", ");
+    System.out.println("   Temperature Min: " + temperatureMin);
    
-    System.out.print("PrecipType: " + precipType + ", ");
-   
-    System.out.print("Apparent TemperatureMax: " + apparentTemperatureMax + ", ");
+    System.out.println("   Apparent TemperatureMax: " + apparentTemperatureMax);
   
-    System.out.print("Apparent TemperatureMin: " + apparentTemperatureMin + ", ");
-  
-    System.out.println("Pressure: " +pressure);
+    System.out.println("   Apparent TemperatureMin: " + apparentTemperatureMin + "\n");
   }
 }

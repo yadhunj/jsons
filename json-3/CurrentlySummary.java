@@ -12,10 +12,8 @@ public class CurrentlySummary
 {
   long time;
   String summary;
-  String icon;
   Double temperature;
   Double apparentTemperature;
-  Double pressure;
 
   public void read(JSONObject jsonObject)
   {
@@ -23,10 +21,8 @@ public class CurrentlySummary
     {
       time = (long) jsonObject.get("time");
       summary = (String) jsonObject.get("summary");
-      icon = (String) jsonObject.get("icon");
       temperature = (Double) jsonObject.get("temperature");
       apparentTemperature = (Double) jsonObject.get("apparentTemperature");
-      pressure = (Double) jsonObject.get("pressure");
     }
     catch (Exception e)
     {
@@ -41,16 +37,12 @@ public class CurrentlySummary
     sd.setTimeZone(TimeZone.getTimeZone("GMT"));
     String ourtime = sd.format(date);
    
-    System.out.print("Time: " + ourtime + ", ");
+    System.out.println("1) Time: " + ourtime);
 
-    System.out.print("Summary: " + summary + ", ");
+    System.out.println("   Summary: " + summary);
 
-    System.out.print("Icon: " + icon + ", ");
-
-    System.out.print("Temperature: " + temperature + ", ");
+    System.out.println("   Temperature: " + temperature);
     
-    System.out.print("Apparent Temperature: " + apparentTemperature + ", ");
-   
-    System.out.println("Pressure: " + pressure);
+    System.out.println("   Apparent Temperature: " + apparentTemperature);
   }
 }
