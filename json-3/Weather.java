@@ -20,29 +20,26 @@ public class Weather
   {
     try 
     {
-      String fPath = "/home/yadhunj/jsons/json-3/tw.json";
-      JSONObject jot = fileInitialize(fPath);
+      JSONObject jot = fileInitialize("/home/yadhunj/jsons/json-3/tw.json");
       
       // Get location information
-      // processLocation(jot);
+      LocationInfo lio;
+      lio = processLocation(jot);
 
       // Get current weather condition
-      // processCurrently(jot);
+      DataPoints dpt;
+      dpt =  processCurrently(jot);
  
       // Get hourly weather condition
-      // processHourly(jot);
+      ArrayList hpt;
+      hpt = processHourly(jot);
     
       // Get daily weather condition
-      // processDaily(jot);
+      ArrayList dDt;  
+      dDt = processDaily(jot);
 
-      // Get Currently Summary
-      SummaryCurrently(jot);   
-  
-      // Get Hourly Summary
-      SummaryHourly(jot);
-  
-      // Get Daily Summary
-      SummaryDaily(jot);
+      // Get Summary
+      PrintSummary(dDt,hpt,dpt,lio);
     }
     catch (Exception e)
     {
@@ -66,35 +63,35 @@ public class Weather
     return jObj;
   }
 
-  static void processLocation(JSONObject jObjt)
+  static LocationInfo processLocation(JSONObject jObjt)
   {
     LocationInfo locinf =new LocationInfo();
     locinf.read(jObjt);
-    locinf.print(); 
+    return locinf; 
   }
 
-  static void processCurrently(JSONObject jObjt)
+  static DataPoints processCurrently(JSONObject jObjt)
   {
     JSONObject currently = (JSONObject) jObjt.get("currently");
     DataPoints dPoints = new DataPoints();
     dPoints.read(currently);
-    dPoints.print();
+    return dPoints;
   }
   
-  static void processHourly(JSONObject jObjt)
+  static ArrayList processHourly(JSONObject jObjt)
   {
     JSONObject hourly = (JSONObject) jObjt.get("hourly");
     ArrayList hpt;
     hpt =  readHourlyData(hourly);
-    printHourlyData(hpt);
+    return hpt;
   }
 
-  static void processDaily(JSONObject jObjt)
+  static ArrayList processDaily(JSONObject jObjt)
   {
     JSONObject daily = (JSONObject) jObjt.get("daily");
     ArrayList dpt;
     dpt = readDailyData(daily);
-    printDailyData(dpt);
+    return dpt;
   }
 
   static ArrayList readHourlyData(JSONObject jObject)
@@ -147,81 +144,74 @@ public class Weather
     }
   }
 
-  static void SummaryCurrently(JSONObject jObjt)
+  static void PrintSummary(ArrayList dSumm, ArrayList hSumm, DataPoints dpoints, LocationInfo linfo)
   {
-    System.out.println("CURRENTLY SUMMARY:");
-    JSONObject currently = (JSONObject) jObjt.get("currently");
-    CurrentlySummary cSummary = new CurrentlySummary();
-    cSummary.read(currently);
-    cSummary.print();
-  }
+    long time;
+    String summary;
+    Double temperatureMax,temperatureMin,temperature,Temperature,TemperatureMax,TemperatureMin;
 
-  static void SummaryHourly(JSONObject jObjt)
-  {
-    JSONObject hourly = (JSONObject) jObjt.get("hourly");
-    ArrayList sHour;
-    sHour =  HourlyDataSummary(hourly);
-    printhSum(sHour);
-  }
-  
-  static ArrayList HourlyDataSummary(JSONObject jObject)
-  {
-    System.out.println("\nHOURLY SUMMARY:");
-    ArrayList hSum = new ArrayList();
-    JSONArray hourlydata = (JSONArray) jObject.get("data");
-    Iterator i = hourlydata.iterator();
-    while (i.hasNext())
-    {
-      JSONObject jObjt = (JSONObject) i.next();
-      HourlySummary hSummary = new HourlySummary();
-      hSummary.read(jObjt);
-      hSum.add(hSummary);
-    }
-    return hSum;
-  }
+    System.out.println("Current Weather Report:\n");
+    DataPoints dpoint;
+    dpoint = (DataPoints) dpoints;   
    
-  static void printhSum(ArrayList hSumm)
-  {
-    for(int i = 1; (i < hSumm.size()) && (i <= 5); i++)
-    {
-      System.out.print(i + ") ");
-      HourlySummary hDSum;
-      hDSum = (HourlySummary) hSumm.get(i);
-      hDSum.print();
-    }
-  }
-  static void SummaryDaily(JSONObject jObjt)
-  {
-    JSONObject daily = (JSONObject) jObjt.get("daily");
-    ArrayList sDaily; 
-    sDaily =  DailyDataSummary(daily);
-    printdSum(sDaily);
-  }
+    time = (long) dpoint.time;
+    Date date = new Date(time*1000L);
+    SimpleDateFormat sd = new SimpleDateFormat("dd-MMM-yyyy HH:mm aa");
+    sd.setTimeZone(TimeZone.getTimeZone("GMT"));
+    String ourtime = sd.format(date);
+    System.out.println("Date/Time: " + ourtime);  
+     
+    summary =  (String) dpoint.summary;
+    System.out.println("Summary: " + summary);
 
-  static ArrayList DailyDataSummary(JSONObject jObject)
-  {
-    System.out.println("DAILY SUMMARY:");
-    ArrayList dSum = new ArrayList();
-    JSONArray Dailydata = (JSONArray) jObject.get("data");
-    Iterator i = Dailydata.iterator();
-    while (i.hasNext())
+    Temperature = (Double) dpoint.temperature;
+    temperature = ((Temperature - 32)*5)/9;
+    System.out.println("Temperature: " + temperature + " C" + " / " + Temperature + " F");
+    
+    System.out.println("\nWeather Report for Next 5 hours:\n");
+    for(int i = 0; (i < hSumm.size()) && (i < 5); i++)
     {
-      JSONObject jObjt = (JSONObject) i.next();
-      DailySummary dSummary = new DailySummary();
-      dSummary.read(jObjt);
-      dSum.add(dSummary);
-    }
-    return dSum;
-  }
-  
-  static void printdSum(ArrayList dSumm)
-  {
+      HourlyDataPoints hDSum;
+      hDSum = (HourlyDataPoints) hSumm.get(i);
+    
+      time = (long) hDSum.time;
+      Date dat = new Date(time*1000L);
+      SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy HH:mm aa");
+      sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+      String ourTime = sdf.format(dat);
+      System.out.println("Date/Time: " + ourTime);
+     
+      summary = (String) hDSum.summary;
+      System.out.println("Summary: " + summary);
+     
+      Temperature = (Double) hDSum.temperature;
+      temperature = ((Temperature - 32)*5)/9;
+      System.out.println("Temperature: " + temperature + " C" + " / " + Temperature + " F\n");
+    } 
+    
+    System.out.println("\nWeather Report for 2 Days:\n");
     for(int i = 1; (i < dSumm.size()) && (i <= 2); i++)
     {
-      System.out.print(i + ") ");
-      DailySummary dDSum;
-      dDSum = (DailySummary) dSumm.get(i);
-      dDSum.print();
+      DailyDataPoints dDSum;
+      dDSum = (DailyDataPoints) dSumm.get(i);
+      
+      time = (long) dDSum.time;
+      Date Dat = new Date(time*1000L);
+      SimpleDateFormat sdF = new SimpleDateFormat("dd-MMM-yyyy HH:mm aa");
+      sdF.setTimeZone(TimeZone.getTimeZone("GMT"));
+      String Ourtime = sdF.format(Dat);
+      System.out.println("Date/Time: " + Ourtime);
+
+      summary =  (String) dDSum.summary;
+      System.out.println("Summary: " + summary);
+  
+      TemperatureMax = (Double) dDSum.temperatureMax;
+      temperatureMax = ((TemperatureMax - 32)*5)/9;
+      System.out.println("Temperature Max: " + temperatureMax + " C" + " / " + TemperatureMax + " F");
+
+      TemperatureMin = (Double) dDSum.temperatureMin;
+      temperatureMin = ((TemperatureMin - 32)*5)/9;
+      System.out.println("Temperature Min: " + temperatureMin + " C" + " / " + TemperatureMin + " F\n");
     }
   }
 }

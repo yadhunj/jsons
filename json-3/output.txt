@@ -1,47 +1,41 @@
-CURRENTLY SUMMARY:
-1) Time: 2015-10-21 17:39
-   Summary: Partly Cloudy
-   Temperature: 78.23
-   Apparent Temperature: 78.23
+Current Weather Report:
 
-HOURLY SUMMARY:
-1) Time: 2015-10-21 18:30
-   Summary: Partly Cloudy
-   Temperature: 77.69
-   Apparent Temperature: 77.69
+Date/Time: 21-Oct-2015 17:39 PM
+Summary: Partly Cloudy
+Temperature: 25.683333333333337 C / 78.23 F
 
-2) Time: 2015-10-21 19:30
-   Summary: Partly Cloudy
-   Temperature: 77.06
-   Apparent Temperature: 77.06
+Weather Report for Next 5 hours:
 
-3) Time: 2015-10-21 20:30
-   Summary: Partly Cloudy
-   Temperature: 76.33
-   Apparent Temperature: 76.33
+Date/Time: 21-Oct-2015 17:30 PM
+Summary: Partly Cloudy
+Temperature: 25.738888888888887 C / 78.33 F
 
-4) Time: 2015-10-21 21:30
-   Summary: Partly Cloudy
-   Temperature: 75.26
-   Apparent Temperature: 75.26
+Date/Time: 21-Oct-2015 18:30 PM
+Summary: Partly Cloudy
+Temperature: 25.383333333333333 C / 77.69 F
 
-5) Time: 2015-10-21 22:30
-   Summary: Partly Cloudy
-   Temperature: 73.98
-   Apparent Temperature: 73.98
+Date/Time: 21-Oct-2015 19:30 PM
+Summary: Partly Cloudy
+Temperature: 25.033333333333335 C / 77.06 F
 
-DAILY SUMMARY:
-1) Time: 2015-10-21 18:30
-   Summary: Partly cloudy throughout the day.
-   Temperature Max: 96.72
-   Temperature Min: 73.3
-   Apparent TemperatureMax: 101.43
-   Apparent TemperatureMin: 73.3
+Date/Time: 21-Oct-2015 20:30 PM
+Summary: Partly Cloudy
+Temperature: 24.627777777777776 C / 76.33 F
 
-2) Time: 2015-10-22 18:30
-   Summary: Partly cloudy throughout the day.
-   Temperature Max: 96.18
-   Temperature Min: 73.34
-   Apparent TemperatureMax: 96.79
-   Apparent TemperatureMin: 73.34
+Date/Time: 21-Oct-2015 21:30 PM
+Summary: Partly Cloudy
+Temperature: 24.033333333333335 C / 75.26 F
+
+
+Weather Report for 2 Days:
+
+Date/Time: 21-Oct-2015 18:30 PM
+Summary: Partly cloudy throughout the day.
+Temperature Max: 35.955555555555556 C / 96.72 F
+Temperature Min: 22.944444444444443 C / 73.3 F
+
+Date/Time: 22-Oct-2015 18:30 PM
+Summary: Partly cloudy throughout the day.
+Temperature Max: 35.65555555555556 C / 96.18 F
+Temperature Min: 22.96666666666667 C / 73.34 F
 
