@@ -43,25 +43,25 @@ public class DailySummary
   public void print()
   {
     Date date = new Date(time*1000L);
-    SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
+    SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm");
     sd.setTimeZone(TimeZone.getTimeZone("GMT"));
     String ourtime = sd.format(date);
-    System.out.print(ourtime + ", ");
+    System.out.print("Time: " + ourtime + ", ");
    
-    System.out.print(summary + ", ");
+    System.out.print("Summary: " + summary + ", ");
    
-    System.out.print(icon + ", ");
+    System.out.print("Icon: " + icon + ", ");
    
-    System.out.print(temperatureMax + ", ");
+    System.out.print("Temperature Max: " + temperatureMax + ", ");
     
-    System.out.print(temperatureMin + ", ");
+    System.out.print("Temperature Min: " + temperatureMin + ", ");
    
-    System.out.print(precipType + ", ");
+    System.out.print("PrecipType: " + precipType + ", ");
    
-    System.out.print(apparentTemperatureMax + ", ");
+    System.out.print("Apparent TemperatureMax: " + apparentTemperatureMax + ", ");
   
-    System.out.print(apparentTemperatureMin + ", ");
+    System.out.print("Apparent TemperatureMin: " + apparentTemperatureMin + ", ");
   
-    System.out.println(pressure);
+    System.out.println("Pressure: " +pressure);
   }
 }

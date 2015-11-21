@@ -1,120 +1,61 @@
-10.8488
-78.9581
-Asia/Kolkata
-5.5
-2015-10-21 17:39:14 GMT, Partly Cloudy, partly-cloudy-night, 0,0,78.23, 78.23, 70.71, 0.78, 5.13, 65, 0.34, 1011.61, 278.82
-2015-10-21 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 78.33, 78.33, 70.56, 0.77, 5.25, 67, 0.32, 1011.63, 278.84
-2015-10-21 18:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 77.69, 77.69, 71.52, 0.81, 4.6, 51, 0.48, 1011.56, 278.7
-2015-10-21 19:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 77.06, 77.06, 71.32, 0.83, 4.57, 32, 0.45, 1011.1, 278.3
-2015-10-21 20:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 76.33, 76.33, 70.91, 0.83, 5.01, 17, 0.43, 1010.65, 277.9
-2015-10-21 21:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 75.26, 75.26, 70.2, 0.84, 5.41, 10, 0.42, 1010.5, 277.72
-2015-10-21 22:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 73.98, 73.98, 69.43, 0.86, 5.54, 7, 0.43, 1010.58, 277.71
-2015-10-21 23:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 73.3, 73.3, 68.89, 0.86, 5.68, 8, 0.43, 1010.82, 277.81
-2015-10-22 00:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 74.94, 74.94, 69.72, 0.84, 6.21, 11, 0.42, 1011.22, 278.01
-2015-10-22 01:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 77.86, 77.86, 70.88, 0.79, 7.18, 16, 0.4, 1011.86, 278.36
-2015-10-22 02:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 81.04, 85.22, 71.55, 0.73, 8.17, 20, 0.37, 1012.44, 278.69
-2015-10-22 03:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 83.87, 88.93, 71.21, 0.66, 8.73, 23, 0.36, 1012.67, 278.85
-2015-10-22 04:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 86.81, 91.57, 69.79, 0.57, 8.91, 25, 0.36, 1012.64, 278.91
-2015-10-22 05:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 89.77, 93.75, 68.04, 0.49, 8.91, 27, 0.36, 1012.36, 278.81
-2015-10-22 06:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 92.47, 96.22, 67.14, 0.44, 8.85, 28, 0.36, 1011.74, 278.46
-2015-10-22 07:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 95.06, 99.23, 67.05, 0.4, 8.69, 29, 0.34, 1010.57, 277.79
-2015-10-22 08:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 96.72, 101.43, 67.31, 0.39, 8.45, 32, 0.32, 1009.44, 277.06
-2015-10-22 09:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 95.98, 100.32, 67.04, 0.39, 8.3, 41, 0.33, 1008.82, 276.51
-2015-10-22 10:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 93.83, 97.85, 67.18, 0.42, 8.73, 58, 0.35, 1008.61, 276.03
-2015-10-22 11:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 91.03, 94.8, 67.48, 0.46, 9.74, 71, 0.39, 1008.73, 275.69
-2015-10-22 12:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 88.22, 91.86, 67.87, 0.51, 10.31, 76, 0.41, 1009.19, 275.61
-2015-10-22 13:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 85.03, 88.58, 68.38, 0.58, 10.36, 77, 0.43, 1010.09, 275.82
-2015-10-22 14:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 82.12, 85.4, 68.75, 0.64, 9.87, 75, 0.44, 1011.04, 276.1
-2015-10-22 15:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 80.22, 83.15, 69.01, 0.69, 8.68, 70, 0.44, 1011.7, 276.27
-2015-10-22 16:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 79.25, 79.25, 69.36, 0.72, 6.76, 57, 0.43, 1012.15, 276.41
-2015-10-22 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 78.63, 78.63, 69.66, 0.74, 5.44, 36, 0.41, 1012.42, 276.46
-2015-10-22 18:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 77.9, 77.9, 69.67, 0.76, 5.28, 21, 0.39, 1012.35, 276.27
-2015-10-22 19:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 77.05, 77.05, 69.42, 0.77, 5.58, 15, 0.36, 1011.89, 275.82
-2015-10-22 20:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 76.13, 76.13, 68.97, 0.79, 5.89, 13, 0.33, 1011.31, 275.35
-2015-10-22 21:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 75.13, 75.13, 68.35, 0.8, 6.07, 9, 0.34, 1010.95, 275.1
-2015-10-22 22:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 73.97, 73.97, 67.57, 0.8, 6.11, 4, 0.36, 1010.7, 274.99
-2015-10-22 23:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 73.34, 73.34, 66.92, 0.8, 6.17, 1, 0.4, 1010.64, 275.01
-2015-10-23 00:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 74.74, 74.74, 67.47, 0.78, 6.4, 2, 0.44, 1010.96, 275.22
-2015-10-23 01:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 77.3, 77.3, 68.31, 0.74, 6.81, 7, 0.51, 1011.71, 275.69
-2015-10-23 02:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 80.18, 83.01, 68.69, 0.68, 7.3, 13, 0.57, 1012.41, 276.15
-2015-10-23 03:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 82.97, 86.07, 68.05, 0.61, 7.63, 16, 0.59, 1012.63, 276.3
-2015-10-23 04:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 86.08, 88.53, 66.24, 0.52, 7.75, 16, 0.59, 1012.45, 276.21
-2015-10-23 05:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 89.25, 90.64, 63.92, 0.43, 7.82, 16, 0.57, 1012.45, 275.95
-2015-10-23 06:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 92.03, 92.82, 62.33, 0.37, 7.98, 17, 0.54, 1011.33, 275.5
-2015-10-23 07:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 94.6, 95.2, 61.41, 0.34, 8.27, 17, 0.48, 1010.24, 274.76
-2015-10-23 08:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 96.18, 96.79, 61.04, 0.32, 8.44, 18, 0.43, 1009.23, 274.05
-2015-10-23 09:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 95.38, 95.8, 60.84, 0.32, 8.21, 24, 0.41, 1008.7, 273.69
-2015-10-23 10:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 93.16, 93.67, 61.53, 0.35, 7.84, 37, 0.39, 1008.6, 273.6
-2015-10-23 11:30:00 GMT, Partly Cloudy, partly-cloudy-day, 0, 0, 90.28, 91.14, 62.74, 0.4, 7.86, 50, 0.39, 1008.85, 273.73
-2015-10-23 12:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 87.31, 88.84, 64.36, 0.47, 8.22, 58, 0.42, 1009.36, 274.14
-2015-10-23 13:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 83.89, 86.3, 66.39, 0.56, 8.82, 64, 0.46, 1010.26, 274.9
-2015-10-23 14:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 80.73, 83.42, 67.89, 0.65, 9.17, 66, 0.51, 1011.2, 275.74
-2015-10-23 15:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 78.57, 78.57, 68.62, 0.72, 8.74, 63, 0.53, 1011.81, 276.44
-2015-10-23 16:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 77.3, 77.3, 69.01, 0.76, 7.63, 52, 0.54, 1012.12, 277.09
-2015-10-23 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 0, 0, 76.39, 76.39, 69.18, 0.78, 6.78, 36, 0.53, 1012.19, 277.65
-2015-10-20 18:30:00 GMT, Partly cloudy until afternoon., partly-cloudy-day, 0.0012, 0.0035, 1445365800, 0.11, rain, 91.09, 1445423400, 77.3, 1445380200, 94.8, 1445423400, 77.3, 1445380200, 73.08, 0.74, 5.84, 67, 0.3, 1010.4, 280.18, 0.27, 1445387684, 1445430319
-2015-10-21 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 0.0, 0.0, 1445365800, 0.0, rain, 96.72, 1445502600, 73.3, 1445470200, 101.43, 1445502600, 73.3, 1445470200, 69.15, 0.65, 6.99, 40, 0.4, 1010.95, 277.42, 0.31, 1445474092, 1445516693
-2015-10-22 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 0.0, 0.0, 1445365800, 0.0, rain, 96.18, 1445589000, 73.34, 1445556600, 96.79, 1445589000, 73.34, 1445556600, 66.21, 0.6, 6.87, 28, 0.46, 1011.0, 275.39, 0.34, 1445560500, 1445603068
-2015-10-23 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 0.0, 0.0, 1445365800, 0.0, rain, 96.95, 1445675400, 71.43, 1445639400, 99.55, 1445675400, 71.43, 1445639400, 66.85, 0.63, 7.92, 38, 0.49, 1011.11, 277.11, 0.38, 1445646908, 1445689443
-2015-10-24 18:30:00 GMT, Overcast throughout the day., cloudy, 5.0E-4, 0.0024, 1445765400, 0.07, rain, 90.83, 1445761800, 74.46, 1445725800, 95.25, 1445761800, 74.46, 1445725800, 69.68, 0.69, 8.05, 32, 0.97, 1011.32, 274.04, 0.42, 1445733317, 1445775820
-2015-10-25 18:30:00 GMT, Mostly cloudy throughout the day., partly-cloudy-day, 5.0E-4, 0.0014, 1445851800, 0.03, rain, 91.15, 1445848200, 73.69, 1445815800, 94.36, 1445848200, 73.69, 1445815800, 68.73, 0.68, 8.05, 31, 0.9, 1011.3, 272.28, 0.46, 1445819727, 1445862197
-2015-10-26 18:30:00 GMT, Overcast throughout the day., cloudy, 0.0014, 0.0032, 1445934600, 0.1, rain, 90.11, 1445934600, 73.43, 1445898600, 93.41, 1445934600, 73.43, 1445898600, 68.24, 0.66, 8.44, 34, 0.95, 1010.39, 266.54, 0.49, 1445906138, 1445948575
-2015-10-27 18:30:00 GMT, Light rain starting in the afternoon, continuing until evening., rain, 0.003, 0.0104, 1446024600, 0.44, rain, 93.12, 1446013800, 74.99, 1445985000, 98.44, 1446013800, 74.99, 1445985000, 68.18, 0.63, 9.79, 4, 0.94, 1009.07, 258.41, 0.53, 1445992549, 1446034954
-2015-10-21 17:39:14 GMT, Partly Cloudy, partly-cloudy-night, 78.23, 78.23, 1011.61
-2015-10-21 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 78.33, 78.33, 1011.63
-2015-10-21 18:30:00 GMT, Partly Cloudy, partly-cloudy-night, 77.69, 77.69, 1011.56
-2015-10-21 19:30:00 GMT, Partly Cloudy, partly-cloudy-night, 77.06, 77.06, 1011.1
-2015-10-21 20:30:00 GMT, Partly Cloudy, partly-cloudy-night, 76.33, 76.33, 1010.65
-2015-10-21 21:30:00 GMT, Partly Cloudy, partly-cloudy-night, 75.26, 75.26, 1010.5
-2015-10-21 22:30:00 GMT, Partly Cloudy, partly-cloudy-night, 73.98, 73.98, 1010.58
-2015-10-21 23:30:00 GMT, Partly Cloudy, partly-cloudy-night, 73.3, 73.3, 1010.82
-2015-10-22 00:30:00 GMT, Partly Cloudy, partly-cloudy-night, 74.94, 74.94, 1011.22
-2015-10-22 01:30:00 GMT, Partly Cloudy, partly-cloudy-day, 77.86, 77.86, 1011.86
-2015-10-22 02:30:00 GMT, Partly Cloudy, partly-cloudy-day, 81.04, 85.22, 1012.44
-2015-10-22 03:30:00 GMT, Partly Cloudy, partly-cloudy-day, 83.87, 88.93, 1012.67
-2015-10-22 04:30:00 GMT, Partly Cloudy, partly-cloudy-day, 86.81, 91.57, 1012.64
-2015-10-22 05:30:00 GMT, Partly Cloudy, partly-cloudy-day, 89.77, 93.75, 1012.36
-2015-10-22 06:30:00 GMT, Partly Cloudy, partly-cloudy-day, 92.47, 96.22, 1011.74
-2015-10-22 07:30:00 GMT, Partly Cloudy, partly-cloudy-day, 95.06, 99.23, 1010.57
-2015-10-22 08:30:00 GMT, Partly Cloudy, partly-cloudy-day, 96.72, 101.43, 1009.44
-2015-10-22 09:30:00 GMT, Partly Cloudy, partly-cloudy-day, 95.98, 100.32, 1008.82
-2015-10-22 10:30:00 GMT, Partly Cloudy, partly-cloudy-day, 93.83, 97.85, 1008.61
-2015-10-22 11:30:00 GMT, Partly Cloudy, partly-cloudy-day, 91.03, 94.8, 1008.73
-2015-10-22 12:30:00 GMT, Partly Cloudy, partly-cloudy-night, 88.22, 91.86, 1009.19
-2015-10-22 13:30:00 GMT, Partly Cloudy, partly-cloudy-night, 85.03, 88.58, 1010.09
-2015-10-22 14:30:00 GMT, Partly Cloudy, partly-cloudy-night, 82.12, 85.4, 1011.04
-2015-10-22 15:30:00 GMT, Partly Cloudy, partly-cloudy-night, 80.22, 83.15, 1011.7
-2015-10-22 16:30:00 GMT, Partly Cloudy, partly-cloudy-night, 79.25, 79.25, 1012.15
-2015-10-22 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 78.63, 78.63, 1012.42
-2015-10-22 18:30:00 GMT, Partly Cloudy, partly-cloudy-night, 77.9, 77.9, 1012.35
-2015-10-22 19:30:00 GMT, Partly Cloudy, partly-cloudy-night, 77.05, 77.05, 1011.89
-2015-10-22 20:30:00 GMT, Partly Cloudy, partly-cloudy-night, 76.13, 76.13, 1011.31
-2015-10-22 21:30:00 GMT, Partly Cloudy, partly-cloudy-night, 75.13, 75.13, 1010.95
-2015-10-22 22:30:00 GMT, Partly Cloudy, partly-cloudy-night, 73.97, 73.97, 1010.7
-2015-10-22 23:30:00 GMT, Partly Cloudy, partly-cloudy-night, 73.34, 73.34, 1010.64
-2015-10-23 00:30:00 GMT, Partly Cloudy, partly-cloudy-night, 74.74, 74.74, 1010.96
-2015-10-23 01:30:00 GMT, Partly Cloudy, partly-cloudy-day, 77.3, 77.3, 1011.71
-2015-10-23 02:30:00 GMT, Partly Cloudy, partly-cloudy-day, 80.18, 83.01, 1012.41
-2015-10-23 03:30:00 GMT, Partly Cloudy, partly-cloudy-day, 82.97, 86.07, 1012.63
-2015-10-23 04:30:00 GMT, Partly Cloudy, partly-cloudy-day, 86.08, 88.53, 1012.45
-2015-10-23 05:30:00 GMT, Partly Cloudy, partly-cloudy-day, 89.25, 90.64, 1012.45
-2015-10-23 06:30:00 GMT, Partly Cloudy, partly-cloudy-day, 92.03, 92.82, 1011.33
-2015-10-23 07:30:00 GMT, Partly Cloudy, partly-cloudy-day, 94.6, 95.2, 1010.24
-2015-10-23 08:30:00 GMT, Partly Cloudy, partly-cloudy-day, 96.18, 96.79, 1009.23
-2015-10-23 09:30:00 GMT, Partly Cloudy, partly-cloudy-day, 95.38, 95.8, 1008.7
-2015-10-23 10:30:00 GMT, Partly Cloudy, partly-cloudy-day, 93.16, 93.67, 1008.6
-2015-10-23 11:30:00 GMT, Partly Cloudy, partly-cloudy-day, 90.28, 91.14, 1008.85
-2015-10-23 12:30:00 GMT, Partly Cloudy, partly-cloudy-night, 87.31, 88.84, 1009.36
-2015-10-23 13:30:00 GMT, Partly Cloudy, partly-cloudy-night, 83.89, 86.3, 1010.26
-2015-10-23 14:30:00 GMT, Partly Cloudy, partly-cloudy-night, 80.73, 83.42, 1011.2
-2015-10-23 15:30:00 GMT, Partly Cloudy, partly-cloudy-night, 78.57, 78.57, 1011.81
-2015-10-23 16:30:00 GMT, Partly Cloudy, partly-cloudy-night, 77.3, 77.3, 1012.12
-2015-10-23 17:30:00 GMT, Partly Cloudy, partly-cloudy-night, 76.39, 76.39, 1012.19
-2015-10-20 18:30:00 GMT, Partly cloudy until afternoon., partly-cloudy-day, 91.09, 77.3, rain, 94.8, 77.3, 1010.4
-2015-10-21 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 96.72, 73.3, rain, 101.43, 73.3, 1010.95
-2015-10-22 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 96.18, 73.34, rain, 96.79, 73.34, 1011.0
-2015-10-23 18:30:00 GMT, Partly cloudy throughout the day., partly-cloudy-day, 96.95, 71.43, rain, 99.55, 71.43, 1011.11
-2015-10-24 18:30:00 GMT, Overcast throughout the day., cloudy, 90.83, 74.46, rain, 95.25, 74.46, 1011.32
-2015-10-25 18:30:00 GMT, Mostly cloudy throughout the day., partly-cloudy-day, 91.15, 73.69, rain, 94.36, 73.69, 1011.3
-2015-10-26 18:30:00 GMT, Overcast throughout the day., cloudy, 90.11, 73.43, rain, 93.41, 73.43, 1010.39
-2015-10-27 18:30:00 GMT, Light rain starting in the afternoon, continuing until evening., rain, 93.12, 74.99, rain, 98.44, 74.99, 1009.07
+CURRENTLY SUMMARY:
+Time: 2015-10-21 17:39, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.23, Apparent Temperature: 78.23, Pressure: 1011.61
+HOURLY SUMMARY:
+Time: 2015-10-21 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.33, Apparent Temperature: 78.33, Pressure: 1011.63
+Time: 2015-10-21 18:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.69, Apparent Temperature: 77.69, Pressure: 1011.56
+Time: 2015-10-21 19:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.06, Apparent Temperature: 77.06, Pressure: 1011.1
+Time: 2015-10-21 20:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.33, Apparent Temperature: 76.33, Pressure: 1010.65
+Time: 2015-10-21 21:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 75.26, Apparent Temperature: 75.26, Pressure: 1010.5
+Time: 2015-10-21 22:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.98, Apparent Temperature: 73.98, Pressure: 1010.58
+Time: 2015-10-21 23:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.3, Apparent Temperature: 73.3, Pressure: 1010.82
+Time: 2015-10-22 00:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 74.94, Apparent Temperature: 74.94, Pressure: 1011.22
+Time: 2015-10-22 01:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 77.86, Apparent Temperature: 77.86, Pressure: 1011.86
+Time: 2015-10-22 02:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 81.04, Apparent Temperature: 85.22, Pressure: 1012.44
+Time: 2015-10-22 03:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 83.87, Apparent Temperature: 88.93, Pressure: 1012.67
+Time: 2015-10-22 04:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 86.81, Apparent Temperature: 91.57, Pressure: 1012.64
+Time: 2015-10-22 05:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 89.77, Apparent Temperature: 93.75, Pressure: 1012.36
+Time: 2015-10-22 06:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 92.47, Apparent Temperature: 96.22, Pressure: 1011.74
+Time: 2015-10-22 07:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.06, Apparent Temperature: 99.23, Pressure: 1010.57
+Time: 2015-10-22 08:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 96.72, Apparent Temperature: 101.43, Pressure: 1009.44
+Time: 2015-10-22 09:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.98, Apparent Temperature: 100.32, Pressure: 1008.82
+Time: 2015-10-22 10:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 93.83, Apparent Temperature: 97.85, Pressure: 1008.61
+Time: 2015-10-22 11:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 91.03, Apparent Temperature: 94.8, Pressure: 1008.73
+Time: 2015-10-22 12:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 88.22, Apparent Temperature: 91.86, Pressure: 1009.19
+Time: 2015-10-22 13:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 85.03, Apparent Temperature: 88.58, Pressure: 1010.09
+Time: 2015-10-22 14:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 82.12, Apparent Temperature: 85.4, Pressure: 1011.04
+Time: 2015-10-22 15:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 80.22, Apparent Temperature: 83.15, Pressure: 1011.7
+Time: 2015-10-22 16:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 79.25, Apparent Temperature: 79.25, Pressure: 1012.15
+Time: 2015-10-22 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.63, Apparent Temperature: 78.63, Pressure: 1012.42
+Time: 2015-10-22 18:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.9, Apparent Temperature: 77.9, Pressure: 1012.35
+Time: 2015-10-22 19:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.05, Apparent Temperature: 77.05, Pressure: 1011.89
+Time: 2015-10-22 20:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.13, Apparent Temperature: 76.13, Pressure: 1011.31
+Time: 2015-10-22 21:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 75.13, Apparent Temperature: 75.13, Pressure: 1010.95
+Time: 2015-10-22 22:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.97, Apparent Temperature: 73.97, Pressure: 1010.7
+Time: 2015-10-22 23:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 73.34, Apparent Temperature: 73.34, Pressure: 1010.64
+Time: 2015-10-23 00:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 74.74, Apparent Temperature: 74.74, Pressure: 1010.96
+Time: 2015-10-23 01:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 77.3, Apparent Temperature: 77.3, Pressure: 1011.71
+Time: 2015-10-23 02:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 80.18, Apparent Temperature: 83.01, Pressure: 1012.41
+Time: 2015-10-23 03:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 82.97, Apparent Temperature: 86.07, Pressure: 1012.63
+Time: 2015-10-23 04:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 86.08, Apparent Temperature: 88.53, Pressure: 1012.45
+Time: 2015-10-23 05:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 89.25, Apparent Temperature: 90.64, Pressure: 1012.45
+Time: 2015-10-23 06:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 92.03, Apparent Temperature: 92.82, Pressure: 1011.33
+Time: 2015-10-23 07:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 94.6, Apparent Temperature: 95.2, Pressure: 1010.24
+Time: 2015-10-23 08:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 96.18, Apparent Temperature: 96.79, Pressure: 1009.23
+Time: 2015-10-23 09:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 95.38, Apparent Temperature: 95.8, Pressure: 1008.7
+Time: 2015-10-23 10:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 93.16, Apparent Temperature: 93.67, Pressure: 1008.6
+Time: 2015-10-23 11:30, Summary: Partly Cloudy, Icon: partly-cloudy-day, Temperature: 90.28, Apparent Temperature: 91.14, Pressure: 1008.85
+Time: 2015-10-23 12:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 87.31, Apparent Temperature: 88.84, Pressure: 1009.36
+Time: 2015-10-23 13:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 83.89, Apparent Temperature: 86.3, Pressure: 1010.26
+Time: 2015-10-23 14:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 80.73, Apparent Temperature: 83.42, Pressure: 1011.2
+Time: 2015-10-23 15:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 78.57, Apparent Temperature: 78.57, Pressure: 1011.81
+Time: 2015-10-23 16:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 77.3, Apparent Temperature: 77.3, Pressure: 1012.12
+Time: 2015-10-23 17:30, Summary: Partly Cloudy, Icon: partly-cloudy-night, Temperature: 76.39, Apparent Temperature: 76.39, Pressure: 1012.19
+DAILY SUMMARY:
+Time: 2015-10-20 18:30, Summary: Partly cloudy until afternoon., Icon: partly-cloudy-day, Temperature Max: 91.09, Temperature Min: 77.3, PrecipType: rain, Apparent TemperatureMax: 94.8, Apparent TemperatureMin: 77.3, Pressure: 1010.4
+Time: 2015-10-21 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.72, Temperature Min: 73.3, PrecipType: rain, Apparent TemperatureMax: 101.43, Apparent TemperatureMin: 73.3, Pressure: 1010.95
+Time: 2015-10-22 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.18, Temperature Min: 73.34, PrecipType: rain, Apparent TemperatureMax: 96.79, Apparent TemperatureMin: 73.34, Pressure: 1011.0
+Time: 2015-10-23 18:30, Summary: Partly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 96.95, Temperature Min: 71.43, PrecipType: rain, Apparent TemperatureMax: 99.55, Apparent TemperatureMin: 71.43, Pressure: 1011.11
+Time: 2015-10-24 18:30, Summary: Overcast throughout the day., Icon: cloudy, Temperature Max: 90.83, Temperature Min: 74.46, PrecipType: rain, Apparent TemperatureMax: 95.25, Apparent TemperatureMin: 74.46, Pressure: 1011.32
+Time: 2015-10-25 18:30, Summary: Mostly cloudy throughout the day., Icon: partly-cloudy-day, Temperature Max: 91.15, Temperature Min: 73.69, PrecipType: rain, Apparent TemperatureMax: 94.36, Apparent TemperatureMin: 73.69, Pressure: 1011.3
+Time: 2015-10-26 18:30, Summary: Overcast throughout the day., Icon: cloudy, Temperature Max: 90.11, Temperature Min: 73.43, PrecipType: rain, Apparent TemperatureMax: 93.41, Apparent TemperatureMin: 73.43, Pressure: 1010.39
+Time: 2015-10-27 18:30, Summary: Light rain starting in the afternoon, continuing until evening., Icon: rain, Temperature Max: 93.12, Temperature Min: 74.99, PrecipType: rain, Apparent TemperatureMax: 98.44, Apparent TemperatureMin: 74.99, Pressure: 1009.07

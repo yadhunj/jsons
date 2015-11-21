@@ -37,19 +37,20 @@ public class CurrentlySummary
   public void print()
   {
     Date date = new Date(time*1000L);
-    SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
+    SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm");
     sd.setTimeZone(TimeZone.getTimeZone("GMT"));
     String ourtime = sd.format(date);
-    System.out.print(ourtime + ", ");
-
-    System.out.print(summary + ", ");
-
-    System.out.print(icon + ", ");
-
-    System.out.print(temperature + ", ");
-    
-    System.out.print(apparentTemperature + ", ");
    
-    System.out.println(pressure);
+    System.out.print("Time: " + ourtime + ", ");
+
+    System.out.print("Summary: " + summary + ", ");
+
+    System.out.print("Icon: " + icon + ", ");
+
+    System.out.print("Temperature: " + temperature + ", ");
+    
+    System.out.print("Apparent Temperature: " + apparentTemperature + ", ");
+   
+    System.out.println("Pressure: " + pressure);
   }
 }

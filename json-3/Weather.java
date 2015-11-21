@@ -24,16 +24,16 @@ public class Weather
       JSONObject jot = fileInitialize(fPath);
       
       // Get location information
-      processLocation(jot);
+      // processLocation(jot);
 
       // Get current weather condition
-      processCurrently(jot);
+      // processCurrently(jot);
  
       // Get hourly weather condition
-      processHourly(jot);
+      // processHourly(jot);
     
       // Get daily weather condition
-      processDaily(jot);
+      // processDaily(jot);
 
       // Get Currently Summary
       SummaryCurrently(jot);   
@@ -149,6 +149,7 @@ public class Weather
 
   static void SummaryCurrently(JSONObject jObjt)
   {
+    System.out.println("CURRENTLY SUMMARY:");
     JSONObject currently = (JSONObject) jObjt.get("currently");
     CurrentlySummary cSummary = new CurrentlySummary();
     cSummary.read(currently);
@@ -163,6 +164,7 @@ public class Weather
 
   static void HourlyDataSummary(JSONObject jObject)
   {
+    System.out.println("HOURLY SUMMARY:");
     JSONArray hourlydata = (JSONArray) jObject.get("data");
     Iterator i = hourlydata.iterator();
     while (i.hasNext())
@@ -182,6 +184,7 @@ public class Weather
 
   static void DailyDataSummary(JSONObject jObject)
   {
+    System.out.println("DAILY SUMMARY:");
     JSONArray Dailydata = (JSONArray) jObject.get("data");
     Iterator i = Dailydata.iterator();
     while (i.hasNext())
