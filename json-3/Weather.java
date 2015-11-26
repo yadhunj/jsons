@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.TimeZone;
+import java.util.Scanner;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -38,8 +39,17 @@ public class Weather
       ArrayList dDt;  
       dDt = processDaily(jot);
 
-      // Get Summary
-      PrintSummary(dDt,hpt,dpt,lio);
+      // Get Weather Summary
+      Scanner summary = new Scanner(System.in);
+      boolean PrintSummaryMode = summary.nextBoolean();
+      if(PrintSummaryMode == true)
+      {
+        PrintSummary(dDt,hpt,dpt,lio);
+      } 
+      else if(PrintSummaryMode == false)
+      {
+        PrintFullSummary(dDt,hpt,dpt,lio);
+      }
     }
     catch (Exception e)
     {
@@ -109,16 +119,6 @@ public class Weather
     return hourlist;
   }
    
-  static void printHourlyData(ArrayList hpt)
-  {
-    for(int k = 0; k < hpt.size(); k++)
-    {
-      HourlyDataPoints hPoints;
-      hPoints = (HourlyDataPoints) hpt.get(k);
-      hPoints.print();
-    }
-  }
-  
   static ArrayList readDailyData(JSONObject jObj)
   {
     ArrayList dailylist = new ArrayList();
@@ -134,16 +134,6 @@ public class Weather
     return dailylist;
   } 
  
-  static void printDailyData(ArrayList dpt)
-  {
-    for(int l = 0; l < dpt.size(); l++)
-    {
-      DailyDataPoints dPoints;
-      dPoints = (DailyDataPoints) dpt.get(l);
-      dPoints.print();
-    }
-  }
-
   static void PrintSummary(ArrayList dSumm, ArrayList hSumm, DataPoints dpoints, LocationInfo linfo)
   {
     long time;
@@ -212,6 +202,35 @@ public class Weather
       TemperatureMin = (Double) dDSum.temperatureMin;
       temperatureMin = ((TemperatureMin - 32)*5)/9;
       System.out.println("Temperature Min: " + temperatureMin + " C" + " / " + TemperatureMin + " F\n");
+    }
+  }
+  
+  static void PrintFullSummary(ArrayList DSumm, ArrayList HSumm, DataPoints DPoints, LocationInfo Linfo)
+  {
+    System.out.println("Location Information:");
+    LocationInfo locinf;
+    locinf = (LocationInfo) Linfo;
+    locinf.print();
+ 
+    System.out.println("\nCurrent Weather Report:");
+    DataPoints dpoints;
+    dpoints = (DataPoints) DPoints; 
+    dpoints.print();
+
+    System.out.println("\nHourly Weather Report:");
+    for(int k = 0; k < HSumm.size(); k++)
+    {
+    HourlyDataPoints hDSum;
+    hDSum = (HourlyDataPoints) HSumm.get(k);
+    hDSum.print();
+    }
+
+    System.out.println("\nDaily Weather Report:");
+    for(int l = 0; l < DSumm.size(); l++)
+    {
+    DailyDataPoints dDSum;
+    dDSum = (DailyDataPoints) DSumm.get(l);
+    dDSum.print();  
     }
   }
 }
