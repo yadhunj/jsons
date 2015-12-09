@@ -17,7 +17,7 @@ import org.json.simple.parser.JSONParser;
  
 public class Weather
 { 
-  public static void main(String[] args) 
+  public static void main(String args[]) 
   {
     try 
     {
@@ -41,14 +41,14 @@ public class Weather
 
       // Get Weather Summary
       Scanner summary = new Scanner(System.in);
-      boolean PrintSummaryMode = summary.nextBoolean();
-      if(PrintSummaryMode == true)
+      boolean printSummaryMode = summary.nextBoolean();
+      if(printSummaryMode == true)
       {
-        PrintSummary(dDt,hpt,dpt,lio);
+        printSummary(dDt,hpt,dpt,lio);
       } 
-      else if(PrintSummaryMode == false)
+      else if(printSummaryMode == false)
       {
-        PrintFullSummary(dDt,hpt,dpt,lio);
+        printAllData(dDt,hpt,dpt,lio);
       }
     }
     catch (Exception e)
@@ -119,6 +119,16 @@ public class Weather
     return hourlist;
   }
    
+  static void printHourlyData(ArrayList hpt)
+  {
+    for(int k = 0; k < hpt.size(); k++)
+    {
+      HourlyDataPoints hPoints;
+      hPoints = (HourlyDataPoints) hpt.get(k);
+      hPoints.print();
+    }
+  }
+   
   static ArrayList readDailyData(JSONObject jObj)
   {
     ArrayList dailylist = new ArrayList();
@@ -132,9 +142,19 @@ public class Weather
       dailylist.add(dDPoints);
     }
     return dailylist;
-  } 
- 
-  static void PrintSummary(ArrayList dSumm, ArrayList hSumm, DataPoints dpoints, LocationInfo linfo)
+  }
+  
+  static void printDailyData(ArrayList dpt)
+  { 
+    for(int l = 0; l < dpt.size(); l++)
+    {
+      DailyDataPoints dPoints;
+      dPoints = (DailyDataPoints) dpt.get(l);
+      dPoints.print();
+    }
+  }
+
+  static void printSummary(ArrayList dSumm, ArrayList hSumm, DataPoints dpoints, LocationInfo linfo)
   {
     long time;
     String summary;
@@ -205,7 +225,7 @@ public class Weather
     }
   }
   
-  static void PrintFullSummary(ArrayList DSumm, ArrayList HSumm, DataPoints DPoints, LocationInfo Linfo)
+  static void printAllData(ArrayList DSumm, ArrayList HSumm, DataPoints DPoints, LocationInfo Linfo)
   {
     System.out.println("Location Information:");
     LocationInfo locinf;
@@ -217,20 +237,8 @@ public class Weather
     dpoints = (DataPoints) DPoints; 
     dpoints.print();
 
-    System.out.println("\nHourly Weather Report:");
-    for(int k = 0; k < HSumm.size(); k++)
-    {
-    HourlyDataPoints hDSum;
-    hDSum = (HourlyDataPoints) HSumm.get(k);
-    hDSum.print();
-    }
+    printHourlyData(HSumm);
 
-    System.out.println("\nDaily Weather Report:");
-    for(int l = 0; l < DSumm.size(); l++)
-    {
-    DailyDataPoints dDSum;
-    dDSum = (DailyDataPoints) DSumm.get(l);
-    dDSum.print();  
-    }
+    printDailyData(DSumm);
   }
 }
