@@ -1,0 +1,115 @@
+Property                        Description
+kind	  			Identifies this as a QPX Express API search response resource. Value: the fixed    qpxExpress#tripsSearch.
+trips	  		 	All possible solutions to the QPX Express search request.
+kind	  			Identifies this as a QPX Express trip response object, which consists of zero or more solutions. Value: the fixed    qpxexpress#tripOptions.
+requestId			An identifier uniquely identifying this response.
+data	   			Informational data global to     of solutions.
+kind	  			Identifies this as QPX Express response resource, including a trip's airport, city, taxes, airline, and aircraft. Value: the fixed    qpxexpress#data.
+airport[] 		  	The airport of an origin or destination.
+kind	  			Identifies this as an airport object. Value: the fixed    qpxexpress#airportData.
+code	  			An airport's code. For example, for Boston Logan airport, this is BOS.
+city	  			The city code an airport is located in. For example, for JFK airport, this is NYC.
+name	  			The name of an airport. For example, for airport BOS the name is "Boston Logan International".
+city[]	   			The city that is either the origin or destination of part of a trip.
+kind	  			Identifies this as a city, typically with one or more airports. Value: the fixed    qpxexpress#cityData.
+code	  			The IATA character ID of a city. For example, for Boston this is BOS.
+country	  			The two-character country code of the country the city is located in. For example, US for the United States of America.
+name	  			The full name of a city. An example would be: New York.
+aircraft[]   			The aircraft that is flying between an origin and destination.
+kind	  			Identifies this as an aircraftData object. Value: the fixed    qpxexpress#aircraftData
+code	  			The aircraft code. For example, for a Boeing 777 the code would be 777.
+name			  	The name of an aircraft, for example Boeing 777.
+tax[]	   			The taxes due for flying between an origin and a destination.
+kind			  	Identifies this as a tax data object, representing some tax. Value: the fixed    qpxexpress#taxData.
+id	  			An identifier uniquely identifying a tax in a response.
+name	  			The name of a tax.
+carrier[]  			The airline carrier of the aircraft flying between an origin and destination. Allowed values are IATA carrier codes.
+kind	  			Identifies this as a kind of carrier (for example, an airline, bus line, railroad, etc). Value: the fixed    qpxexpress#carrierData.
+code			  	The IATA designator of a carrier (airline, etc). For example, for American Airlines, the code is AA.
+name	  			The long, full name of a carrier. For example: American Airlines.
+tripOption[]			A list of priced itinerary solutions to the QPX Express query.
+kind	  			Identifies this as a trip information object. Value: the fixed    qpxexpress#tripOption.
+saleTotal 			The total price for all passengers on the trip, in the form of a currency followed by an amount, e.g. USD253.35.
+id	  			Identifier uniquely identifying this trip in a response.
+slice[]	  			The slices that make up this trip's itinerary.
+kind	  			Identifies this as a slice object. A slice represents a traveller's intent, the portion of a low-fare search corresponding to a traveler's request to get between two points. One-way journeys are generally expressed using 1 slice, round-trips using 2. Value: the fixed    qpxexpress#sliceInfo.
+duration			The duration of the slice in minutes.
+segment[] 		 	The segment(s) constituting the slice.
+kind	  			Identifies this as a segment object. A segment is one or more consecutive legs on the same flight. For example a hypothetical flight ZZ001, from DFW to OGG, could have one segment with two legs: DFW to HNL (leg 1), HNL to OGG (leg 2). Value: the fixed    qpxexpress#segmentInfo.
+duration		  	The duration of the flight segment in minutes.
+flight			   	The flight this is a segment of.
+carrier	  			The 2-letter IATA airline designator for the segment.
+number			  	The flight number.
+id			  	An ID uniquely identifying the segment in the solution.
+cabin	  			The cabin booked for this segment.
+bookingCode  			The booking code or class for this segment.
+bookingCodeCount		The number of seats available in this booking code on this segment.
+marriedSegmentGroup  		The solution-based index of a segment in a married segment group. Married segments can only be booked together. For example, an airline might report a certain booking code as sold out from Boston to Pittsburgh, but as available as part of two married segments Boston to Chicago connecting through Pittsburgh. For example content of this field, consider the round-trip flight ZZ1 PHX-PHL ZZ2 PHL-CLT ZZ3 CLT-PHX. This has three segments, with the two outbound ones (ZZ1 ZZ2) married. In this case, the two outbound segments belong to married segment group 0, and the return segment belongs to married segment group 1.
+subjectToGovernmentApproval  	Whether the operation of this segment remains subject to government approval.
+leg[]	   			The legs composing this segment.
+kind	  			Identifies this as a leg object. A leg is the smallest unit of travel, in the case of a flight a takeoff immediately followed by a landing at two set points on a particular carrier with a particular flight number. Value: the fixed    qpxexpress#legInfo.
+id			  	An identifier that uniquely identifies this leg in the solution.
+aircraft 		 	The aircraft (or bus, ferry, railcar, etc) travelling between the two points of this leg.
+arrivalTime		  	The scheduled time of arrival at the destination of the leg, local to the point of arrival.
+departureTime		  	The scheduled departure time of the leg, local to the point of departure.
+origin	  			The leg origin as a city and airport.
+destination  			The leg destination as a city and airport.
+originTerminal  		The terminal the flight is scheduled to depart from.
+destinationTerminal             The terminal the flight is scheduled to arrive at.
+duration			The scheduled travelling time from the origin to the destination.
+operatingDisclosure    		Department of Transportation disclosure information on the actual operator of a flight in a code share. (A code share refers to a marketing agreement between two carriers, where one carrier will     in its schedules (and take bookings for) flights that are actually operated by another carrier.)
+onTimePerformance    	 	In percent, the published on time performance on this leg.
+mileage				The number of miles in this leg.
+meal			  	A simple, general description of the meal(s) served on the flight, for example: "Hot meal".
+secure	   			Whether passenger information must be furnished to the United States Transportation Security Administration (TSA) prior to departure.
+connectionDuration   		Duration of a connection following this leg, in minutes.
+changePlane	   		Whether the passenger(s) have to change planes following this leg. Only applies to the next leg.
+connectionDuration		In minutes, the duration of the connection following this segment.
+pricing[]			Per passenger pricing information.
+kind			  	Identifies this as a pricing object, representing the price of one or more travel segments. Value: the fixed    qpxexpress#pricingInfo.
+fare[]			   	The fare used to price one or more segments.
+kind	  			Identifies this as a fare object. Value: the fixed    qpxexpress#fareInfo.
+id			  	A unique identifier of the fare.
+carrier			  	The 2-letter IATA airline designator of the carrier whose fare this is.
+origin	  			The origin city to which this fare applies
+destination  			The destination city to which this fare applies
+basisCode 			The Fare Basis Code.
+private	   			Whether this is a private fare, for example one offered only to select customers rather than the general public.
+segmentPricing[]		The per-segment price and baggage information.
+kind	  			Identifies this as a segment pricing object, representing the price of this segment. Value: the fixed    qpxexpress#segmentPricing.
+fareId	  			A segment identifier unique within a single solution. It is used to refer to different parts of the same solution.
+segmentId			Unique identifier in the response of this segment.
+freeBaggageOption[]	   	Details of the free baggage allowance on this segment.
+kind			  	Identifies this as free baggage object, allowed on one segment of a trip. Value: the fixed    qpxexpress#freeBaggageAllowance.
+bagDescriptor[]			A representation of a type of bag, such as an ATPCo subcode, Commercial Name, or other description.
+kind	  			Identifies this as a baggage object. Value: the fixed    qpxexpress#bagDescriptor.
+commercialName			Provides the commercial name for an optional service.
+count			   	How many of this type of bag will be checked on this flight.
+description[]			A description of the baggage.
+subcode	  			The standard IATA subcode used to identify this optional service.
+kilos			   	The maximum number of kilos all the free baggage together may weigh.
+kilosPerPiece			The maximum number of kilos any one piece of baggage may weigh.
+pieces	 		  	The number of free pieces of baggage allowed.
+pounds	   			The number of pounds of free baggage allowed.
+baseFareTotal			The total fare in the base fare currency (the currency of the country of origin). This element is only present when the sales currency and the currency of the country of commencement are different.
+saleFareTotal			The total fare in the sale or equivalent currency.
+saleTaxTotal			The taxes in the sale or equivalent currency.
+saleTotal 			Total per-passenger price (fare and tax) in the sale or equivalent currency.
+passenger  			The number of passengers to which this price applies.
+kind	  			Identifies this as a passenger count object, representing the number of passengers. Value: the fixed    qpxexpress#passengerCounts.
+adultCount   			The number of passengers that are adults.
+childCount   			The number of passengers that are children.
+infantInLapCount  		The number of passengers that are infants travelling in the lap of an adult.
+infantInSeatCount		The number of passengers that are infants each assigned a seat.
+seniorCount   			The number of passengers that are senior citizens.
+tax[]	   			The taxes used to calculate the tax total per ticket.
+kind	  			Identifies this as a tax information object. Value: the fixed    qpxexpress#taxInfo.
+id	  			Identifier uniquely identifying this tax in a response. Not present for unnamed carrier surcharges.
+chargeType			Whether this is a government charge or a carrier surcharge.
+code	  			The code to enter in the ticket's tax box.
+country	  			For government charges, the country levying the charge.
+salePrice	  		The price of the tax in the sales or equivalent currency.
+fareCalculation	  		The horizontal fare calculation. This is a field on a ticket that displays all of the relevant items that go into the calculation of the fare.
+latestTicketingTime  		The latest ticketing time for this pricing assuming the reservation occurs at ticketing time and there is no change in fares/rules. The time is local to the point of sale (POS).
+ptc	  			The passenger type code for this pricing. An alphanumeric code used by a carrier to restrict fares to certain categories of passenger. For instance, a fare might be valid only for senior citizens.
+refundable			Whether the fares on this pricing are refundable.
