@@ -1,0 +1,212 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "TDfwhNlUr36gF8bO40NQ9z",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BLR",
+     "city": "BLR",
+     "name": "Bengaluru Kempegowda International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BLR",
+     "name": "Bangalore"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "777",
+     "name": "Boeing 777"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WO_001",
+     "name": "Indian Passenger Service Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "F2_001",
+     "name": "Indian Swachh Bharat Cess Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "JN_004",
+     "name": "Indian Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "IN",
+     "name": "Indian User Development Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "BA YQ surcharge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "BA",
+     "name": "British Airways p.l.c."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR36602",
+    "id": "VNVE8UPXhw7Q8Q86c8IdlR001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 660,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 660,
+        "flight": {
+         "carrier": "BA",
+         "number": "118"
+        },
+        "id": "GMcMxG+D+24zPt28",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-9B5ND05FBSfZRn",
+          "aircraft": "777",
+          "arrivalTime": "2015-12-20T12:30+00:00",
+          "departureTime": "2015-12-20T07:00+05:30",
+          "origin": "BLR",
+          "destination": "LHR",
+          "destinationTerminal": "5",
+          "duration": 660,
+          "mileage": 4997,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACCA+UlB0uBfb5UGhKjLWrYKvBgGqWSKTRnsTMEymYYE",
+        "carrier": "BA",
+        "origin": "BLR",
+        "destination": "LON",
+        "basisCode": "SRCASO7"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACCA+UlB0uBfb5UGhKjLWrYKvBgGqWSKTRnsTMEymYYE",
+        "segmentId": "GMcMxG+D+24zPt28"
+       }
+      ],
+      "baseFareTotal": "INR23915",
+      "saleFareTotal": "INR23915",
+      "saleTaxTotal": "INR12687",
+      "saleTotal": "INR36602",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR1340"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR48"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "INR9211"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR516"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR19"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR1404"
+       }
+      ],
+      "fareCalculation": "BLR BA LON 359.40SRCASO7 NUC 359.40 END ROE 66.541160 FARE INR 23915 XT 67F2 1404IN 1856JN 149WO 9211YQ",
+      "latestTicketingTime": "2015-12-16T23:59-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}
+

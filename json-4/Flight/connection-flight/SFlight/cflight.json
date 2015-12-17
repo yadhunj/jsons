@@ -1,0 +1,275 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "J5vAbeBMkRwmY1pW30NQVy",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "AUH",
+     "city": "AUH",
+     "name": "Abu Dhabi International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BLR",
+     "city": "BLR",
+     "name": "Bengaluru Kempegowda International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "AUH",
+     "name": "Abu Dhabi"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BLR",
+     "name": "Bangalore"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "388",
+     "name": "Airbus A380"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WO_001",
+     "name": "Indian Passenger Service Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "F2_001",
+     "name": "Indian Swachh Bharat Cess Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "JN_004",
+     "name": "Indian Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "IN",
+     "name": "Indian User Development Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "EY YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_F",
+     "name": "EY YR surcharge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "EY",
+     "name": "Etihad Airways"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR23922",
+    "id": "PVBablgMY9OUXD82pcnmyQ001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 800,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 260,
+        "flight": {
+         "carrier": "EY",
+         "number": "287"
+        },
+        "id": "G201hm+VTHVE3Aui",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lnd67goaBxqAorIr",
+          "aircraft": "321",
+          "arrivalTime": "2015-12-20T12:40+04:00",
+          "departureTime": "2015-12-20T09:50+05:30",
+          "origin": "BLR",
+          "destination": "AUH",
+          "destinationTerminal": "1",
+          "duration": 260,
+          "mileage": 1691,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 60
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 480,
+        "flight": {
+         "carrier": "EY",
+         "number": "17"
+        },
+        "id": "G5iEIhjxWGZ2JUxC",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L0lDxnhpATKFV6pU",
+          "aircraft": "388",
+          "arrivalTime": "2015-12-20T17:40+00:00",
+          "departureTime": "2015-12-20T13:40+04:00",
+          "origin": "AUH",
+          "destination": "LHR",
+          "originTerminal": "3",
+          "destinationTerminal": "4",
+          "duration": 480,
+          "mileage": 3426,
+          "meal": "Meal"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AU+HAtY++kbCLTT4hcIzSLqIkszYtzdniVE1wvWsSuj/",
+        "carrier": "EY",
+        "origin": "BLR",
+        "destination": "LON",
+        "basisCode": "TSPOWEY/YB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AU+HAtY++kbCLTT4hcIzSLqIkszYtzdniVE1wvWsSuj/",
+        "segmentId": "G201hm+VTHVE3Aui"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AU+HAtY++kbCLTT4hcIzSLqIkszYtzdniVE1wvWsSuj/",
+        "segmentId": "G5iEIhjxWGZ2JUxC"
+       }
+      ],
+      "baseFareTotal": "INR7190",
+      "saleFareTotal": "INR7190",
+      "saleTaxTotal": "INR16732",
+      "saleTotal": "INR23922",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR402"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR15"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "INR13817"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR782"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR28"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "INR135"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR1404"
+       }
+      ],
+      "fareCalculation": "BLR EY X/AUH EY LON Q BLRLON46.58 61.46TSPOWEY NUC 108.04 END ROE 66.541160 FARE INR 7190 XT 43F2 1404IN 1184JN 149WO 13817YQ 135YR",
+      "latestTicketingTime": "2015-12-19T23:19-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}
+

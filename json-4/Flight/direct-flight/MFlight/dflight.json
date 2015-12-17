@@ -1,0 +1,872 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "Ntyv2VrxUWdQbuZIe0NQa0",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "BLR",
+     "city": "BLR",
+     "name": "Bengaluru Kempegowda International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "MAA",
+     "city": "MAA",
+     "name": "Chennai International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BLR",
+     "name": "Bangalore"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "MAA",
+     "name": "Chennai"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "AT7",
+     "name": "ATR 72"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "WO_001",
+     "name": "Indian Passenger Service Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "F2_001",
+     "name": "Indian Swachh Bharat Cess Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "JN_004",
+     "name": "Indian Service Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "IN",
+     "name": "Indian User Development Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "AI YQ surcharge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "9W",
+     "name": "Jet Airways (India) Limited"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AI",
+     "name": "Air India Limited"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR4362",
+    "id": "AVx07n7DyQ7UBk8VPovJkH002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 60,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 60,
+        "flight": {
+         "carrier": "9W",
+         "number": "2754"
+        },
+        "id": "GHHzFLQG3sOZTQxk",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lp1DlSXYOW9FDCeZ",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T09:30+05:30",
+          "departureTime": "2015-12-20T08:30+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 60,
+          "mileage": 167,
+          "meal": "Breakfast"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "O2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "segmentId": "GHHzFLQG3sOZTQxk"
+       }
+      ],
+      "baseFareTotal": "INR3650",
+      "saleFareTotal": "INR3650",
+      "saleTaxTotal": "INR712",
+      "saleTotal": "INR4362",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR205"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR8"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 3650O2IPO INR 3650 END XT 8F2 350IN 205JN 149WO",
+      "latestTicketingTime": "2015-12-19T21:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR4362",
+    "id": "AVx07n7DyQ7UBk8VPovJkH001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 55,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 55,
+        "flight": {
+         "carrier": "9W",
+         "number": "2308"
+        },
+        "id": "G+lG3yY2SAbz8l3m",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LwrXUtaf0F2RnqEP",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T10:30+05:30",
+          "departureTime": "2015-12-20T09:35+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 55,
+          "mileage": 167,
+          "meal": "Breakfast"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "O2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "segmentId": "G+lG3yY2SAbz8l3m"
+       }
+      ],
+      "baseFareTotal": "INR3650",
+      "saleFareTotal": "INR3650",
+      "saleTaxTotal": "INR712",
+      "saleTotal": "INR4362",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR205"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR8"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 3650O2IPO INR 3650 END XT 8F2 350IN 205JN 149WO",
+      "latestTicketingTime": "2015-12-19T23:04-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR4362",
+    "id": "AVx07n7DyQ7UBk8VPovJkH003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 65,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 65,
+        "flight": {
+         "carrier": "9W",
+         "number": "2310"
+        },
+        "id": "GN7LWPdJJf53-1Hr",
+        "cabin": "COACH",
+        "bookingCode": "O",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L+JdmmHGTRR7giTy",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T21:25+05:30",
+          "departureTime": "2015-12-20T20:20+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 65,
+          "mileage": 167,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "O2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AaInuNzi7D5l5w1+pEXvA4YYYkeRFyGMckKR9BvgdrDqG",
+        "segmentId": "GN7LWPdJJf53-1Hr"
+       }
+      ],
+      "baseFareTotal": "INR3650",
+      "saleFareTotal": "INR3650",
+      "saleTaxTotal": "INR712",
+      "saleTotal": "INR4362",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR205"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR8"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 3650O2IPO INR 3650 END XT 8F2 350IN 205JN 149WO",
+      "latestTicketingTime": "2015-12-20T09:49-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR5049",
+    "id": "AVx07n7DyQ7UBk8VPovJkH004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 60,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 60,
+        "flight": {
+         "carrier": "AI",
+         "number": "564"
+        },
+        "id": "GgpJcw5lva8c4Ppy",
+        "cabin": "COACH",
+        "bookingCode": "G",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LccOrUsJv-XmUnt3",
+          "aircraft": "319",
+          "arrivalTime": "2015-12-20T12:45+05:30",
+          "departureTime": "2015-12-20T11:45+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 60,
+          "mileage": 167,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AvLqMb+QcvpLaw3A9/xvIn8+/lSJM8CKJBQASn5Bb",
+        "carrier": "AI",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "GIPA"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AvLqMb+QcvpLaw3A9/xvIn8+/lSJM8CKJBQASn5Bb",
+        "segmentId": "GgpJcw5lva8c4Ppy"
+       }
+      ],
+      "baseFareTotal": "INR3650",
+      "saleFareTotal": "INR3650",
+      "saleTaxTotal": "INR1399",
+      "saleTotal": "INR5049",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR205"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR8"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "INR650"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR36"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR1"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       }
+      ],
+      "fareCalculation": "BLR AI MAA 3649GIPA INR 3649 END XT 9F2 350IN 241JN 149WO 650YQ",
+      "latestTicketingTime": "2015-12-20T01:14-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR5208",
+    "id": "AVx07n7DyQ7UBk8VPovJkH005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 65,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 65,
+        "flight": {
+         "carrier": "9W",
+         "number": "2738"
+        },
+        "id": "GspCidu239lEvTvd",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LE10AILhFHinP0uQ",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T19:10+05:30",
+          "departureTime": "2015-12-20T18:05+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 65,
+          "mileage": 167,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ABYHRzLIrEi64wRhX7qDUB6cQWuTVdQ0Fi8Y+vpNQNMAo",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "V2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ABYHRzLIrEi64wRhX7qDUB6cQWuTVdQ0Fi8Y+vpNQNMAo",
+        "segmentId": "GspCidu239lEvTvd"
+       }
+      ],
+      "baseFareTotal": "INR4450",
+      "saleFareTotal": "INR4450",
+      "saleTaxTotal": "INR758",
+      "saleTotal": "INR5208",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR250"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR9"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 4450V2IPO INR 4450 END XT 9F2 350IN 250JN 149WO",
+      "latestTicketingTime": "2015-12-20T07:34-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR6054",
+    "id": "AVx07n7DyQ7UBk8VPovJkH006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 65,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 65,
+        "flight": {
+         "carrier": "9W",
+         "number": "2736"
+        },
+        "id": "GbLnQAGEwGHn3I-o",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lrh5F42GF-qFt7Q3",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T23:30+05:30",
+          "departureTime": "2015-12-20T22:25+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 65,
+          "mileage": 167,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AQBo5U7pxmjgv6tT+hMCb+LUXE7/8ve5so05fxFK6c4XH",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "H2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AQBo5U7pxmjgv6tT+hMCb+LUXE7/8ve5so05fxFK6c4XH",
+        "segmentId": "GbLnQAGEwGHn3I-o"
+       }
+      ],
+      "baseFareTotal": "INR5250",
+      "saleFareTotal": "INR5250",
+      "saleTaxTotal": "INR804",
+      "saleTotal": "INR6054",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR294"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR11"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 5250H2IPO INR 5250 END XT 11F2 350IN 294JN 149WO",
+      "latestTicketingTime": "2015-12-20T11:54-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "INR7747",
+    "id": "AVx07n7DyQ7UBk8VPovJkH007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 55,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 55,
+        "flight": {
+         "carrier": "9W",
+         "number": "2352"
+        },
+        "id": "Gv3omo-phq6r1B7S",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L15vzUGFTzg37Fqo",
+          "aircraft": "AT7",
+          "arrivalTime": "2015-12-20T18:05+05:30",
+          "departureTime": "2015-12-20T17:10+05:30",
+          "origin": "BLR",
+          "destination": "MAA",
+          "destinationTerminal": "1",
+          "duration": 55,
+          "mileage": 167,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYxgESi6f5wNdUM2jHyzQul8YDBtouegR4GbCOtMNWr/bn/",
+        "carrier": "9W",
+        "origin": "BLR",
+        "destination": "MAA",
+        "basisCode": "S2IPO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYxgESi6f5wNdUM2jHyzQul8YDBtouegR4GbCOtMNWr/bn/",
+        "segmentId": "Gv3omo-phq6r1B7S"
+       }
+      ],
+      "baseFareTotal": "INR6850",
+      "saleFareTotal": "INR6850",
+      "saleTaxTotal": "INR897",
+      "saleTotal": "INR7747",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "JN_004",
+        "chargeType": "GOVERNMENT",
+        "code": "JN",
+        "country": "IN",
+        "salePrice": "INR384"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "F2_001",
+        "chargeType": "GOVERNMENT",
+        "code": "F2",
+        "country": "IN",
+        "salePrice": "INR14"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IN",
+        "chargeType": "GOVERNMENT",
+        "code": "IN",
+        "country": "IN",
+        "salePrice": "INR350"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "WO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "WO",
+        "country": "IN",
+        "salePrice": "INR149"
+       }
+      ],
+      "fareCalculation": "BLR 9W MAA 6850S2IPO INR 6850 END XT 14F2 350IN 384JN 149WO",
+      "latestTicketingTime": "2015-12-20T06:39-05:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}
+
