@@ -18,7 +18,7 @@ public class flight
     try 
     {                       
       JSONParser parser = new JSONParser();                                
-      FileReader file = new FileReader("/home/yadhunj/Flight/Dflight/MFlight/dflight.json");                                                                        
+      FileReader file = new FileReader("/home/yadhunj/jsons/json-4/Flight/direct-flight/MFlight/dflight.json");                                                                        
       JSONObject jObj = (JSONObject) parser.parse(file);
       	
       JSONObject trips = (JSONObject) jObj.get("trips");
