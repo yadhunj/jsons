@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yadhunandhanan | Its My Life My Style</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://yadhumylife.wordpress.com/xmlrpc.php">
+
+<link rel="alternate" type="application/rss+xml" title="Yadhunandhanan &raquo; Feed" href="https://yadhumylife.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Yadhunandhanan &raquo; Comments Feed" href="https://yadhumylife.wordpress.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='all-css-0' href='https://s1.wp.com/_static/??-eJx9kN1qwzAMRl9onknXFXpR9iyJozhKLctECqZvPzXQP1pyIz5Z5yAjX4sLnBWyelpcSUvELF4IE1zKzBMEfe2+g8iX/6wlPIP4CbS04ezW7g3vEseHwDFCz4u6gVPi6iv2ETZ3YB4wo17uYQuWkWcN3NuvjPKS0OLI1d0HW3bgGeydSqtXgqDHFhKQYVsalcPNusbRbvF+hie+FqNd15UZRJxVwoWcjrZo9f7o1Oz3P7tdc2x+p3+HQqPx' type='text/css' media='all' />
+<link rel='stylesheet' id='writr-montserrat-css'  href='https://fonts.googleapis.com/css?family=Montserrat:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2' href='https://s1.wp.com/_static/??-eJyFkNFuwyAMRX+o1KoWpdpDtW8JzKWuACNshvb3I4qqpuqavqBrcY64Blo2jpNiUojV5FA9JQGPCQv1ixdx70R2sHL1ghEFcrXQCmkB0d+A7zFKbkFNy47jk7DqJNWKK5SV5i5nDoHbFn/hHyzGVmtDf/L/Piu80bdHld5IdPJlive0pWHkKy3nghEk1uW/bmHL98gmsJvmrR4Gcw4TlS21oA3se/TQqdU4S1/xdBiGz/HjOB6H6x+eJLga' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3' href='https://s1.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1444132114g' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4' href='https://s0.wp.com/_static/??-eJyNjEEOwjAMBD+EsVrlkBxQ39I2wTVy4qp2le8DEgfEidusNDvYd1i1eWmOvpVaDLeAJLrMcl3NLvgl1BN2OYmbYedMxQ1fyoeBDs4wtwzC5v98F1EyYLiriPaf+Q5M9TaEMaSYYkyPJ2IePlQ=' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyFkesOwiAMhV9IRjb1hz+Mz7JLJZ1AkYJEn150U+c9IaGU75zQg0xOoG117IBln9c+gj+OW9HzTP4ChEHl6wCFQXuDW7IBbLiwhhrUICKDr1XuZaMtfeAccTDAnKEPt89PQntASH+xHoKr253wwHh6c200KeF0VGhZ5lpBRzGILWlNSSbsFIRXjYl3BceGW48uIOXToPqBD37X9IZSNNE4MZ1jmjC7R5jfv2akNmZdLhbzqipX5bI/A3syrXc='></script>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://yadhumylife.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/3Hups' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Yadhunandhanan" />
+<meta property="og:description" content="Its My Life My Style" />
+<meta property="og:url" content="https://yadhumylife.wordpress.com/" />
+<meta property="og:site_name" content="Yadhunandhanan" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta property="fb:app_id" content="249643311490" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel='openid.server' href='https://yadhumylife.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://yadhumylife.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://yadhumylife.wordpress.com/osd.xml" title="Yadhunandhanan" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Yadhunandhanan" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Its My Life My Style" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://yadhumylife.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Yadhunandhanan on WordPress.com" />
+<meta name="description" content="Its My Life My Style (by Yadhunandhanan)" />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style type="text/css" id="custom-colors-css">span.infinite-loader .spinner div div{background:#303030 !important}body{background-color:#303030}.jetpack-recipe-title{border-color:#3498db}.jetpack-recipe{border-color:#3498db}.jetpack-recipe{border-color:rgba(52,152,219,.15)}cite,.widget-area button,.widget-area html input[type="button"],.widget-area input[type="reset"],.widget-area input[type="submit"],a,.social-links a,.entry-title a:hover,.entry-title a:focus,.entry-title a:active,.entry-meta a:hover,.entry-meta a:focus,.entry-meta a:active,#content [class*="navigation"] a:hover,#content [class*="navigation"] a:focus,#content [class*="navigation"] a:active,.comment-metadata a:hover,.comment-metadata a:focus,.comment-metadata a:active,.widget_tag_cloud a:hover,.widget_tag_cloud a:focus,.widget_tag_cloud a:active,.content-area .widget_categories ul a:hover,.content-area .widget_recent_entries ul a:hover,.widget-grofile .grofile-full-link,.widget-grofile .grofile-full-link:hover,.widget-grofile .grofile-full-link:focus,.widget-grofile .grofile-full-link:active,.custom-colors .wp_widget_tag_cloud a:hover,.custom-colors .wp_widget_tag_cloud a:focus,.custom-colors .wp_widget_tag_cloud a:active{color:#3498db}mark,ins,button,html input[type="button"],input[type="reset"],input[type="submit"],body:after,.site-header,.main-navigation ul ul,.more-link,.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.content-area .widget_tag_cloud a,#infinite-handle span{background-color:#3498db}a:hover,a:focus,a:active,.site-title a:hover,.site-info a:hover,.widget_archive ul a:hover,.widget_categories ul a:hover,.widget_links ul a:hover,.widget_nav_menu ul a:hover,.widget_meta ul a:hover,.widget_pages ul a:hover,.widget_recent_comments ul a:hover,.widget_recent_entries ul a:hover,.widget_rss ul a:hover,.widget_rss_links ul a:hover,.custom-colors .widget_top-posts ul a:hover{color:#2980b9}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button:active,html input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active,#sidebar-toggle,.main-navigation a:hover,.menu-toggle,.dropdown-icon,.social-links a,.more-link:hover,.more-link:focus,.more-link:active,.widget th,.widget tfoot tr,.widget_tag_cloud a,.content-area .widget_tag_cloud a:hover,.content-area .widget_tag_cloud a:focus,.content-area .widget_tag_cloud a:active,#infinite-handle span:hover,.custom-colors .wp_widget_tag_cloud a{background-color:#2980b9}.widget-area input[type="text"],.widget-area input[type="url"],.widget-area input[type="email"],.widget-area input[type="password"],.widget-area input[type="search"],.widget-area textarea{border-color:#2980b9}#sidebar-toggle:before,#sidebar-toggle:after{border-top-color:#2980b9}.site-branding,.main-navigation:after,#social-links,.widget,.widget th,.widget td{border-bottom-color:#2980b9}</style>
+</head>
+
+<body class="home blog mp6 customizer-styles-applied sidebar-closed highlander-enabled highlander-light infinite-scroll neverending">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+					<a class="site-logo"  href="https://yadhumylife.wordpress.com/" title="Yadhunandhanan" rel="home">
+				<img src="https://yadhumylife.files.wordpress.com/2014/08/cropped-dsc_0627-2.jpg" width="1102" height="1438" alt="" class="no-grav header-image" />
+			</a>
+				<div class="site-branding">
+			<h1 class="site-title"><a href="https://yadhumylife.wordpress.com/" title="Yadhunandhanan" rel="home">Yadhunandhanan</a></h1>
+			<h2 class="site-description">Its My Life My Style</h2>
+		</div>
+
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle genericon genericon-menu"><span class="screen-reader-text">Menu</span></h1>
+			<div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li class=" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"><a href="https://yadhumylife.wordpress.com/">Home</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://yadhumylife.wordpress.com/articles/">Articles</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://yadhumylife.wordpress.com/photos-2/">Photos</a></li><li class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="https://yadhumylife.wordpress.com/about/">About</a></li></ul></div>		</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+	
+<div id="sidebar" class="sidebar-area">
+	<a id="sidebar-toggle" href="#" title="Sidebar"><span class="genericon genericon-close"></span><span class="screen-reader-text">Sidebar</span></a>
+
+			<div id="secondary" class="widget-area" role="complementary">
+						<aside id="jp_blogs_i_follow-3" class="widget widget_jp_blogs_i_follow"><h1 class="widget-title">Blogs I Follow</h1><ol><li><a href="http://www.storyalert.com/" class="bump-view" data-bump-view="bif">StoryAlert - Teen LifeZine</a></li><li><a href="http://ashokarsh.wordpress.com" class="bump-view" data-bump-view="bif">Ashokarsh (Aa)</a></li><li><a href="https://yadhumylife.wordpress.com" class="bump-view" data-bump-view="bif">Yadhunandhanan</a></li></ol></aside><aside id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>February 2016</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://yadhumylife.wordpress.com/2013/12/">&laquo; Dec</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+	</tr>
+	<tr>
+		<td>8</td><td>9</td><td>10</td><td>11</td><td id="today">12</td><td>13</td><td>14</td>
+	</tr>
+	<tr>
+		<td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+	</tr>
+	<tr>
+		<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+	</tr>
+	<tr>
+		<td>29</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-91319"><a href="https://yadhumylife.wordpress.com/category/photos/convocation/" >Convocation</a>
+</li>
+	<li class="cat-item cat-item-304"><a href="https://yadhumylife.wordpress.com/category/photos/" >Photos</a>
+</li>
+		</ul>
+</aside><!-- Invalid Facebook Page URL --><aside id="blog_subscription-2" class="widget widget_blog_subscription"><h1 class="widget-title"><label for="subscribe-field">Follow Blog via Email</label></h1>
+				<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="subscribe-blog">
+											<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+<p>Join 2 other followers</p>
+						<p><input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Enter your email address" value="" id="subscribe-field"/></p>
+					
+					<p>
+						<input type="hidden" name="action" value="subscribe"/>
+						<input type="hidden" name="blog_id" value="54694010"/>
+						<input type="hidden" name="source" value="https://yadhumylife.wordpress.com/"/>
+						<input type="hidden" name="sub-type" value="widget"/>
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-2" />
+						<input type="hidden" id="_wpnonce" name="_wpnonce" value="d9c2f3621a" />						<input type="submit" value="Follow" />
+					</p>
+				</form>
+			
+</aside><aside id="follow_button_widget-2" class="widget widget_follow_button_widget">
+		<a class="wordpress-follow-button" href="https://yadhumylife.wordpress.com" data-blog="https://yadhumylife.wordpress.com" data-lang="en" >Follow Yadhunandhanan on WordPress.com</a>
+		<script type="text/javascript">(function(d){var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</aside><aside id="internet_defense_league_widget-2" class="widget widget_internet_defense_league_widget"><p><a href="http://internetdefenseleague.org/"><img src="http://internetdefenseleague.org/images/badges/final/shield_badge.png" alt="Member of The Internet Defense League" style="max-width:100%;height:auto;" /></a></p></aside><aside id="twitter_timeline-2" class="widget widget_twitter_timeline"><h1 class="widget-title">Follow me on Twitter</h1><a class="twitter-timeline" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" width="225" height="400" lang="EN">My Tweets</a></aside>					</div><!-- #secondary -->
+	</div><!-- #sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+						
+				
+<article id="post-43" class="post-43 post type-post status-publish format-gallery hentry category-photos post_format-post-format-gallery">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yadhumylife.wordpress.com/2013/12/18/vinoth-photography/" rel="bookmark">Vinoth Photography</a></h1>
+		
+					<a class="entry-format-badge genericon genericon-gallery" href="https://yadhumylife.wordpress.com/type/gallery/" title="All Gallery posts"><span class="screen-reader-text">Gallery</span></a>
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><a href="https://yadhumylife.files.wordpress.com/2013/08/dsc_01341.jpg"><img class="alignnone size-medium wp-image-29" alt="DSC_0134" src="https://yadhumylife.files.wordpress.com/2013/08/dsc_01341.jpg?w=300&#038;h=198" width="300" height="198" /></a></p>
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+
+		<ul class="clear">
+			
+	<li class="date-meta">
+		<div class="genericon genericon-month"></div>
+		<span class="screen-reader-text">Date</span>
+		<a href="https://yadhumylife.wordpress.com/2013/12/18/vinoth-photography/" rel="bookmark" title="11:14 PM">December 18, 2013</a>
+	</li>
+
+	
+		<li class="comment-meta">
+			<div class="genericon genericon-comment"></div>
+			<span class="screen-reader-text">Comments</span>
+			<a href="https://yadhumylife.wordpress.com/2013/12/18/vinoth-photography/#respond">Leave a comment</a>		</li>
+
+			</ul>
+
+	</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-21" class="post-21 post type-post status-publish format-gallery hentry category-convocation post_format-post-format-gallery">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yadhumylife.wordpress.com/2013/07/22/my-ug-convocation-day/" rel="bookmark">My UG Convocation&nbsp;Day</a></h1>
+		
+					<a class="entry-format-badge genericon genericon-gallery" href="https://yadhumylife.wordpress.com/type/gallery/" title="All Gallery posts"><span class="screen-reader-text">Gallery</span></a>
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div data-shortcode="caption" id="attachment_22" style="width: 310px" class="wp-caption alignnone"><a href="https://yadhumylife.files.wordpress.com/2013/07/1016766_409011562550653_2001059086_n.jpg"><img class="size-medium wp-image-22" alt="Convocation" src="https://yadhumylife.files.wordpress.com/2013/07/1016766_409011562550653_2001059086_n.jpg?w=300&#038;h=199" width="300" height="199" /></a><p class="wp-caption-text">Convocation</p></div>
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+
+		<ul class="clear">
+			
+	<li class="date-meta">
+		<div class="genericon genericon-month"></div>
+		<span class="screen-reader-text">Date</span>
+		<a href="https://yadhumylife.wordpress.com/2013/07/22/my-ug-convocation-day/" rel="bookmark" title="9:19 PM">July 22, 2013</a>
+	</li>
+
+	
+		<li class="comment-meta">
+			<div class="genericon genericon-comment"></div>
+			<span class="screen-reader-text">Comments</span>
+			<a href="https://yadhumylife.wordpress.com/2013/07/22/my-ug-convocation-day/#respond">Leave a comment</a>		</li>
+
+			</ul>
+
+	</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+
+			
+				
+<article id="post-2" class="post-2 post type-post status-publish format-gallery hentry category-photos post_format-post-format-gallery">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://yadhumylife.wordpress.com/2013/07/01/my-parents/" rel="bookmark">My Parents</a></h1>
+		
+					<a class="entry-format-badge genericon genericon-gallery" href="https://yadhumylife.wordpress.com/type/gallery/" title="All Gallery posts"><span class="screen-reader-text">Gallery</span></a>
+			</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><a href="https://yadhumylife.files.wordpress.com/2013/07/dsc00592.jpg"><img class="size-full wp-image" id="i-6" alt="Image" src="https://yadhumylife.files.wordpress.com/2013/07/dsc00592.jpg?w=650" /></a>.</p>
+			</div><!-- .entry-content -->
+	
+		<footer class="entry-meta">
+
+		<ul class="clear">
+			
+	<li class="date-meta">
+		<div class="genericon genericon-month"></div>
+		<span class="screen-reader-text">Date</span>
+		<a href="https://yadhumylife.wordpress.com/2013/07/01/my-parents/" rel="bookmark" title="4:47 PM">July 1, 2013</a>
+	</li>
+
+	
+		<li class="comment-meta">
+			<div class="genericon genericon-comment"></div>
+			<span class="screen-reader-text">Comments</span>
+			<a href="https://yadhumylife.wordpress.com/2013/07/01/my-parents/#respond">Leave a comment</a>		</li>
+
+			</ul>
+
+	</footer><!-- .entry-meta -->
+	</article><!-- #post-## -->
+
+			
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+				<div id="social-links" class="clear">
+			<ul class="social-links clear">
+				
+				
+								<li>
+					<a href="https://plus.google.com/103760132303400939868" class="genericon genericon-googleplus" title="Google+" target="_blank">
+						<span class="screen-reader-text">Google+</span>
+					</a>
+				</li>
+				
+				
+							</ul>
+		</div><!-- #social-links -->
+		
+		<div class="site-info">
+						<div><a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a></div>
+			<div><a href="https://wordpress.com/themes/writr/" title="Learn more about this theme">The Writr Theme</a>.</div>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https:\/\/yadhumylife.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"01.07.13","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"yadhumylife.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2013-07-01 16:47:10","stats":"blog=54694010&v=wpcom&tz=5&user_id=0&subd=yadhumylife&x_pagetype=infinite"}};
+		//]]>
+		</script>
+		<!-- wpcom_wp_footer -->
+<div id="wpcom-follow-bubbles-jp_blogs_i_follow-3" class="wpcom-follow-bubbles"><div id="wpcom-bubble-jp_blogs_i_follow-3-1" class="wpcom-bubble wpcom-follow-bubble"><div class="bubble-txt"><a href="http://www.storyalert.com/" class="bump-view" data-bump-view="bif">StoryAlert - Teen LifeZine</a><p><small>India&#039;s No. 1 Teen Magazine</small></p></div></div><div id="wpcom-bubble-jp_blogs_i_follow-3-2" class="wpcom-bubble wpcom-follow-bubble"><div class="bubble-txt"><a href="http://ashokarsh.wordpress.com" class="bump-view" data-bump-view="bif">Ashokarsh (Aa)</a><p><small>Only Few Moments Become Memories</small></p></div></div><div id="wpcom-bubble-jp_blogs_i_follow-3-3" class="wpcom-bubble wpcom-follow-bubble"><div class="bubble-txt"><a href="https://yadhumylife.wordpress.com" class="bump-view" data-bump-view="bif">Yadhunandhanan</a><p><small>Its My Life My Style</small></p></div></div></div>		<script type="text/javascript">
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");
+		</script>
+		<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201606y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/yadhumylife.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/yadhumylife.wordpress.com\/wp-login.php?action=logout&_wpnonce=f74f39c912","homeURL":"https:\/\/yadhumylife.wordpress.com\/","postID":"43","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1424115551j'></script>
+		<div id="infinite-footer">
+			<div class="container">
+				<div class="blog-info">
+					<a id="infinity-blog-title" href="https://yadhumylife.wordpress.com/" rel="home">
+						Yadhunandhanan					</a>
+				</div>
+				<div class="blog-credits">
+					<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a> <a href="https://wordpress.com/themes/writr/" title="Learn more about this theme">The Writr Theme</a>.				</div>
+			</div>
+		</div><!-- #infinite-footer -->
+		
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;Yadhunandhanan&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+			
+			<p><input type="email" name="email" placeholder="Enter your email address" id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="54694010"/>
+			<input type="hidden" name="source" value="https://yadhumylife.wordpress.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d9c2f3621a" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Build a website with WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+<script type="text/javascript">
+	window._idl = {};
+	_idl.campaign = "";
+	_idl.variant = "banner";
+	(function() {
+		var idl = document.createElement('script');
+		idl.type = 'text/javascript';
+		idl.async = true;
+		idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+		document.getElementsByTagName('body')[0].appendChild(idl);
+	})();
+</script>
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="54694010" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://yadhumylife.wordpress.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Yadhunandhanan" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="33d928faad" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='https://s2.wp.com/_static/??/wp-content/mu-plugins/widgets/facebook-likebox/style.css,/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1438295886j' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='https://s0.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"https:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"54694010","blog_subdomain":"yadhumylife","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JetpackEmojiSettings = {"base_url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/emoji\/twemoji\/"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/yadhumylife.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"55d068968c","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/yadhumylife.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fyadhumylife.wordpress.com%2F2013%2F07%2F01%2Fmy-parents%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=54694010&v=wpcom&tz=5&user_id=0&subd=yadhumylife","is_public":"1","reblog_enabled":""};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/yadhumylife.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"55d068968c","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/yadhumylife.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fyadhumylife.wordpress.com%2F2013%2F07%2F01%2Fmy-parents%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=54694010&v=wpcom&tz=5&user_id=0&subd=yadhumylife","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyNUctuhDAM/KGGqO0itYeq3wLGgEOI0zghy98Xql20y4FyytieGT+is1fALqKL2ohucCJAfy2MvOiH0piUt6kjJ5pcS47ivIEDrvQcInCDspqbn4RhLmAGi6dFYmlBPWe15ffa2OO4kH2qdQ4Uwypz1URdFYndGbYM5JUlN6iWIYlqabsAObDpNktyDQYBDliMdMr4DxzsmqnpMIquLXeiaGlvLeddeKDHkQ3pmJ/ef/kGo69gUOfYT6zHc0huuTYIcW9x10/L17GuRNYVzS32AUUOmkIVOAnabcp7YtF8j1+vl/L97VJ+lJ/mF4xHB5k='></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "yadhumylife.wordpress.com";
+	</script>
+	<script type="text/javascript" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","follow_js","widget-bump-view","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","writr-navigation","writr-skip-link-focus-fix","underscore","writr-script","jp-widget-follow-blogs","twemoji","jetpack-emoji","jetpack-emoji-init","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","genericons","writr-style","writr-wpcom","follow_css","hover-bubbles","wpcom_instagram_widget","jetpack-emoji-css","noticons","geo-location-flair","reblogging","a8c-global-print","h4-global","widget-grid-and-list","blogs-i-follow-widget","writr-montserrat","highlander-comments","highlander-comments-ie7","jetpack_facebook_likebox","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?51" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'54694010','blog_tz':'5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'54694010','v':'wpcom','tz':'5','user_id':'0','subd':'yadhumylife'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR4NTB6Qz9YLFBRWTFdSG15X0JwK1c3LEsyN0lRdkU4RExBai9xPVRHUW1HLnExZyssN2hpR1V4fE1jMDR3cU1nVS5wbz0lRGlEMSVRZ3J3ZEJMZ34mTWxJLi94PUVGX0p3TGNBWW50RmlQT3JbOVZqfC9MJnY/Y1BPdkpEN2NrbHNPRUQ3QSxSejAzUWhqUURBYXImM2N4XUFtdltufnNjbHlvd1FGemUvZ2t8ZE5VJSxTS05+JUk4NTNOVTkrekIvQiVjVHN4aVdELmlscV0ubkVPK2ExaFtzRUxNSEhETmRhSU4rPU8='}]);
+_stq.push([ 'clickTrackerInit', '54694010', '0' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
+<!--
+	generated 63 seconds ago
+	generated in 0.228 seconds
+	served from batcache in 0.001 seconds
+	expires in 237 seconds
+-->
